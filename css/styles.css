@@ -130,6 +130,17 @@ img {
   padding-left: 116px;
 }
 
+/* hero */
+.hero {
+  height: 644px;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  /* height: 265px; */
+}
+
 /* icons footer */
 .icon {
   background-color: tomato;
