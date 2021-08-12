@@ -71,7 +71,6 @@ img {
 .page-header {
   background-color: var(--bg-color-header-footer);
   height: 79px;
-  padding-left: 108px;
   display: flex;
 }
 
@@ -82,24 +81,31 @@ img {
 
 .logo-link {
   font-family: var(--main-fonts);
-  font-weight: 800;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 1.17;
   color: var(--logo-text-color);
   padding-left: 19px;
 }
 
 .btn_enter {
-  width: 212px;
+  width: 220px;
   height: 53px;
   background-color: var(--btn-color-header);
   border-radius: 6px;
-  margin-left: 701px;
+  margin-left: 735px;
+  cursor: pointer;
   border: none;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
   justify-content: center;
-  cursor: pointer;
+  padding-right: 10px;
+  font-family: var(--main-fonts);
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--logo-text-color);
 }
 
 .btn-icon {
@@ -119,7 +125,7 @@ img {
 }
 
 .inf-link {
-  font-family: Montserrat;
+  font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 21px;
   line-height: 1.2;
@@ -127,7 +133,7 @@ img {
 }
 
 .inf-link:not(:first-child) {
-  padding-left: 116px;
+  padding-left: 114px;
 }
 
 /* hero */
@@ -143,5 +149,5 @@ img {
 
 /* icons footer */
 .icon {
-  background-color: tomato;
+  background-color: turquoise;
 }
