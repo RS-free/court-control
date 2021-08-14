@@ -244,6 +244,58 @@ img {
   line-height: 1.7;
 }
 
+/* section stability */
+
+.stability {
+  height: 680px;
+  background-color: var(--secondary-bg-color);
+}
+
+.stab-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 54px;
+  padding-bottom: 19px;
+}
+
+.stab-paragraph {
+  text-align: center;
+  padding-bottom: 73px;
+}
+
+.stab-work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stab-icon {
+  float: left;
+  margin-right: 20px;
+}
+
+.stab-achievement {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 151px;
+  padding-bottom: 75px;
+}
+
+.court-partners {
+  display: flex;
+  justify-content: center;
+}
+
+.partners-icon:not(:first-child) {
+  padding-left: 58px;
+}
+
 /* icons footer */
 .icon {
   background: turquoise;
