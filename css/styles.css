@@ -4,8 +4,7 @@
   --accent-text-color: rgba(240, 240, 240, 0.46);
   --bg-color-header-footer: #004d40;
   --bg-color-inform: #027b66;
-  --secondary-bg-color: #e5e5e5;
-  --third-bg-color: rgba(2, 123, 102, 0.04);
+  --secondary-bg-color: rgba(2, 123, 102, 0.04);
   --btn-color-header: #027b66;
   --btn-color-section: #3b683d;
 
@@ -15,7 +14,7 @@
 body {
   font-size: 18px;
   font-family: var(--main-fonts);
-  line-height: 1.7;
+  line-height: 1.2;
   color: var(--main-text-color);
 }
 
@@ -102,6 +101,7 @@ img {
   padding-right: 10px;
   font-family: var(--main-fonts);
   font-size: 19px;
+  line-height: 1.7;
   font-weight: 400;
   color: var(--logo-text-color);
 }
@@ -125,7 +125,6 @@ img {
 .inf-link {
   font-weight: 500;
   font-size: 21px;
-  line-height: 1.2;
   color: var(--logo-text-color);
 }
 
@@ -148,7 +147,6 @@ img {
   display: flex;
   font-weight: 600;
   font-size: 38px;
-  line-height: 1.2;
   padding-top: 157px;
   align-content: center;
   flex-direction: column;
@@ -165,14 +163,13 @@ img {
 
 /* section advantages */
 .advantages {
-  height: 665px;
-  background-color: var(--third-bg-color);
+  height: 680px;
+  background-color: var(--secondary-bg-color);
 }
 
 .advantages-title {
   font-weight: 700;
   font-size: 35px;
-  line-height: 1.2;
   text-align: center;
   padding-top: 31px;
   padding-bottom: 90px;
@@ -194,7 +191,6 @@ img {
 .adv-icon_title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.2;
   text-align: start;
   padding-top: 30px;
 }
@@ -202,8 +198,12 @@ img {
 .adv-icon_paragraph {
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.2;
   padding-top: 30px;
+  line-height: 1.4;
+}
+
+.reviews {
+  height: 670px;
 }
 
 .rev-icon {
@@ -213,22 +213,35 @@ img {
 .rev-title {
   font-weight: 700;
   font-size: 35px;
-  line-height: 1.2;
   text-align: center;
-  padding-top: 119px;
+  padding-top: 100px;
   padding-bottom: 104px;
 }
 
 .rev-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 115px;
-  row-gap: 60px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .rev-user {
+  padding-left: 45px;
+}
+
+.user-inform {
   display: flex;
-  text-align: center;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 24px;
+}
+
+.rev-text {
+  padding-top: 27px;
+  line-height: 1.7;
 }
 
 /* icons footer */
