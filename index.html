@@ -11,15 +11,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
 <link rel="stylesheet" href="./css/styles.css"/>
 <script>
-function externalLinks() {
-    links = document.getElementsByTagName("a");
-    for (i=0; i<links.length; i++) {
-    link = links[i];
-    if (link.getAttribute("href") && link.getAttribute("rel") == "external")
-    link.target = "_blank";
+    function externalLinks() {
+        links = document.getElementsByTagName("a");
+            for (i=0; i<links.length; i++) {
+            link = links[i];
+                if (link.getAttribute("href") && link.getAttribute("rel") == "external")
+                link.target = "_blank";
+        }
     }
-}
-window.onload = externalLinks;
+    window.onload = externalLinks;
 </script>
 </head>
 <body>
@@ -195,11 +195,11 @@ window.onload = externalLinks;
         <div id="partners">
             <h2 class="partners-title title">Партнери, які нам довіряють</h2>
             <ul class="court-partners">
-                <li class="partners-icon"><img class="cp-icon" src="./images/asters.png" alt="asters"/></li>
-                <li class="partners-icon"><img class="cp-icon" src="./images/trident.png" alt="trident"/></li>
-                <li class="partners-icon"><img class="cp-icon" src="./images/min_just.png" alt="min_just"/></li>
-                <li class="partners-icon"><img class="cp-icon" src="./images/diia.png" alt="diia"/></li>
-                <li class="partners-icon"><img class="cp-icon" src="./images/ilf.png" alt="ilf"/></li>
+                <li class="partners-icon"><img src="./images/asters.png" alt="asters"/></li>
+                <li class="partners-icon"><img src="./images/trident.png" alt="trident"/></li>
+                <li class="partners-icon"><img src="./images/min_just.png" alt="min_just"/></li>
+                <li class="partners-icon"><img src="./images/diia.png" alt="diia"/></li>
+                <li class="partners-icon"><img src="./images/ilf.png" alt="ilf"/></li>
             </ul>
         </div>
     </section>

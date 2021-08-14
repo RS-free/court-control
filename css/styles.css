@@ -13,6 +13,7 @@
 
 body {
   font-size: 18px;
+  font-weight: normal;
   font-family: var(--main-fonts);
   line-height: 1.2;
   color: var(--main-text-color);
@@ -197,8 +198,6 @@ img {
 }
 
 .adv-icon_paragraph {
-  font-weight: normal;
-  font-size: 18px;
   padding-top: 30px;
   line-height: 1.4;
 }
@@ -243,7 +242,6 @@ img {
 }
 
 /* section stability */
-
 .stability {
   height: 680px;
   background-color: var(--secondary-bg-color);
@@ -286,11 +284,6 @@ img {
 
 .partners-icon:not(:first-child) {
   padding-left: 58px;
-}
-
-.cp-icon {
-  width: 90px;
-  height: 90px;
 }
 
 /* icons footer */
