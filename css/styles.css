@@ -202,6 +202,7 @@ img {
   line-height: 1.4;
 }
 
+/* section reviews */
 .reviews {
   height: 670px;
 }
@@ -220,7 +221,6 @@ img {
 
 .rev-list {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
 }
 
