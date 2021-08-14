@@ -30,6 +30,12 @@ ul {
   text-decoration: none;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -46,15 +52,6 @@ img {
   max-width: 100%;
 }
 
-.container {
-  width: 1440px;
-  padding-right: 108px;
-  padding-left: 108px;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -64,6 +61,15 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.container {
+  width: 1440px;
+  padding-right: 108px;
+  padding-left: 108px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* header */
@@ -90,7 +96,7 @@ img {
   height: 53px;
   background-color: var(--btn-color-header);
   border-radius: 6px;
-  margin-left: 735px;
+  margin-left: 750px;
   cursor: pointer;
   border: none;
   display: flex;
@@ -129,7 +135,7 @@ img {
 }
 
 .inf-link:not(:first-child) {
-  padding-left: 114px;
+  padding-left: 116px;
 }
 
 /* hero */
@@ -139,26 +145,24 @@ img {
 }
 .hero-section {
   display: flex;
-  justify-content: center;
-  padding-left: -108px;
+  justify-content: space-between;
 }
 
 .hero-title {
-  display: flex;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 42px;
   padding-top: 157px;
-  align-content: center;
-  flex-direction: column;
-}
-
-.hero-list {
-  display: flex;
-  padding-top: 44px;
+  position: absolute;
 }
 
 .img_hero {
   padding-top: 45px;
+  margin-left: 560px;
+}
+
+.hero-list {
+  display: flex;
+  margin-top: -180px;
 }
 
 /* section advantages */
@@ -168,9 +172,6 @@ img {
 }
 
 .advantages-title {
-  font-weight: 700;
-  font-size: 35px;
-  text-align: center;
   padding-top: 31px;
   padding-bottom: 90px;
 }
@@ -212,9 +213,6 @@ img {
 }
 
 .rev-title {
-  font-weight: 700;
-  font-size: 35px;
-  text-align: center;
   padding-top: 100px;
   padding-bottom: 104px;
 }
@@ -252,9 +250,6 @@ img {
 }
 
 .stab-title {
-  font-weight: 700;
-  font-size: 35px;
-  text-align: center;
   padding-top: 54px;
   padding-bottom: 19px;
 }
@@ -280,9 +275,6 @@ img {
 }
 
 .partners-title {
-  font-weight: 700;
-  font-size: 35px;
-  text-align: center;
   padding-top: 151px;
   padding-bottom: 75px;
 }
@@ -294,6 +286,11 @@ img {
 
 .partners-icon:not(:first-child) {
   padding-left: 58px;
+}
+
+.cp-icon {
+  width: 90px;
+  height: 90px;
 }
 
 /* icons footer */
