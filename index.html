@@ -27,17 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css"/>
-    <script>
-        function externalLinks() {
-            links = document.getElementsByTagName("a");
-                for (i=0; i<links.length; i++) {
-                link = links[i];
-                    if (link.getAttribute("href") && link.getAttribute("rel") == "external")
-                    link.target = "_blank";
-            }
-        }
-        window.onload = externalLinks;
-    </script>
+    <script src="./js/target.js"></script>
 </head>
 <body>
     <header class="page-header container" id="header">
