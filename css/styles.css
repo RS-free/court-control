@@ -48,10 +48,10 @@ p {
   margin-bottom: 0;
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
-}
+} */
 
 .visually-hidden {
   position: absolute !important;
@@ -164,6 +164,10 @@ img {
 .hero-list {
   display: flex;
   margin-top: -180px;
+}
+
+.hero-link:not(:first-child) {
+  margin-left: 35px;
 }
 
 /* section advantages */
@@ -286,6 +290,51 @@ img {
   padding-left: 58px;
 }
 
+/* section court-control */
+.court-control {
+  height: 1270px;
+}
+.court-information {
+  display: flex;
+}
+.iphone {
+  padding-top: 251px;
+}
+.court-properties {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 81px;
+}
+
+.court-title {
+  padding-top: 225px;
+  padding-bottom: 16px;
+}
+
+.court-par {
+  line-height: 1.7;
+  padding-bottom: 66px;
+}
+
+.btn_enter--court {
+  width: 375px;
+  height: 74px;
+  background-color: var(--btn-color-section);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--logo-text-color);
+  margin-bottom: 40px;
+}
+
+.court-link:not(:first-child) {
+  padding-top: 13px;
+}
 /* icons footer */
 .icon {
   background: turquoise;
