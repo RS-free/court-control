@@ -7,7 +7,7 @@
   --secondary-bg-color: rgba(2, 123, 102, 0.04);
   --btn-color-header: #027b66;
   --btn-color-section: #3b683d;
-
+  --hover-social-icon: yellow;
   --main-fonts: "Montserrat", sans-serif;
 }
 
@@ -47,11 +47,6 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/* img {
-  display: block;
-  max-width: 100%;
-} */
 
 .visually-hidden {
   position: absolute !important;
@@ -111,10 +106,24 @@ p {
   line-height: 1.7;
   font-weight: 400;
   color: var(--logo-text-color);
+  transition: transform 250ms linear;
+}
+
+.btn_enter:hover,
+.btn_enter:focus {
+  transform: scale(1.12);
+  box-shadow: 0px 0px 4px 4px rgba(202, 5, 5, 0.2);
+  background-color: var(--btn-color-section);
 }
 
 .btn-icon {
   margin-left: 10px;
+  fill: var(--btn-color-header);
+}
+
+.btn-icon:hover,
+.btn-icon:focus {
+  fill: var(--btn-color-section);
 }
 
 /* section information */
@@ -133,10 +142,17 @@ p {
   font-weight: 500;
   font-size: 21px;
   color: var(--logo-text-color);
+  transition: transform 250ms linear;
 }
 
 .inf-link:not(:first-child) {
   padding-left: 116px;
+}
+
+.inf-link:hover,
+.inf-link:focus {
+  transform: scale(1.1);
+  font-weight: 600;
 }
 
 /* hero */
@@ -153,7 +169,6 @@ p {
   font-weight: 600;
   font-size: 41px;
   padding-top: 157px;
-  /* position: absolute; */
 }
 
 .img_hero {
@@ -163,11 +178,20 @@ p {
 
 .hero-list {
   display: flex;
-  margin-top: -135px;
+  margin-top: -160px;
 }
 
 .hero-link:not(:first-child) {
   margin-left: 35px;
+}
+
+.hero-link {
+  transition: transform 250ms linear;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  transform: scale(1.12);
 }
 
 /* section advantages */
@@ -214,10 +238,15 @@ p {
 .rev-icon {
   float: right;
   padding-top: 30px;
+  transition: transform 250ms linear;
 }
 
+.rev-icon:hover,
+.rev-icon:focus {
+  transform: scale(1.12);
+}
 .rev-title {
-  padding-top: 100px;
+  padding-top: 140px;
   padding-bottom: 104px;
 }
 
@@ -291,6 +320,15 @@ p {
   padding-left: 58px;
 }
 
+.partners-icon {
+  transition: transform 250ms linear;
+}
+
+.partners-icon:hover,
+.partners-icon:focus {
+  transform: scale(1.12);
+}
+
 /* section court-control */
 .court-control {
   height: 1270px;
@@ -299,6 +337,12 @@ p {
 .icon-top {
   float: right;
   margin-top: -50px;
+  transition: transform 250ms linear;
+}
+
+.icon-top:hover,
+.icon-top:focus {
+  transform: scale(1.12);
 }
 
 .court-information {
@@ -339,10 +383,27 @@ p {
   align-items: center;
   color: var(--logo-text-color);
   margin-bottom: 40px;
+  transition: transform 250ms linear;
+}
+
+.btn_enter--court:hover,
+.btn_enter--court:focus {
+  transform: scale(1.12);
+  box-shadow: 0px 0px 4px 4px rgba(180, 219, 6, 0.199);
+  background-color: var(--btn-color-header);
 }
 
 .court-link:not(:first-child) {
   padding-top: 13px;
+}
+
+.court-link {
+  transition: transform 250ms linear;
+}
+
+.court-link:hover,
+.court-link:focus {
+  transform: scale(1.12);
 }
 
 /* footer */
@@ -356,8 +417,17 @@ p {
   padding-bottom: 30px;
 }
 
+.footer-icon {
+  fill: var(--logo-text-color);
+  cursor: pointer;
+}
 .footer-icon:not(:first-child) {
   padding-left: 25px;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: var(--hover-social-icon);
 }
 
 .footer-logo-inform {
