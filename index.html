@@ -227,43 +227,43 @@
         </div>
     </section>
     </main>
-    <footer>
+    <footer class="footer container">
         <div>
-            <ul>
-                <li>
-                    <svg class="icon" width="14px" height="25px">
+            <ul class="social-icon">
+                <li class="footer-icon">
+                    <svg width="25" height="25px">
                         <use href="./images/icons/sprite.svg#icon-facebook"></use>
                     </svg>
                 </li>
-                <li>
-                    <svg class="icon" width="34px" height="25px">
+                <li class="footer-icon">
+                    <svg width="34px" height="25px">
                         <use href="./images/icons/sprite.svg#icon-youtube"></use>
                     </svg>
                 </li>
-                <li>
-                    <svg class="icon" width="25px" height="25px">
+                <li class="footer-icon">
+                    <svg width="25px" height="25px">
                         <use href="./images/icons/sprite.svg#icon-telegram"></use>
                     </svg>
                 </li>
-                <li>
-                    <svg class="icon" width="36px" height="25px">
+                <li class="footer-icon">
+                    <svg width="36px" height="25px">
                         <use href="./images/icons/sprite.svg#icon-message"></use>
                     </svg>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <img src="./images/logo.png" alt="logo"/>
-                    <h3>Суд Контроль</h3>
-                    <p>Система для автоматизації процесу моніторингу стану судових справ</p>
-                </li>
-            </ul>
+            <div class="footer-logo-inform">
+                <img class="logo-footer" src="./images/logo.png" alt="logo"/>
+                <div class="logo-description">
+                    <a href="./" class="logo-link-footer link">Суд Контроль</a>
+                    <p class="footer-logo-paragraph">Система для автоматизації процесу<br/> моніторингу стану судових справ</p>
+                </div>
+            </div>
         </div>
         <form class="block-send">
-        <div class="block-send__title">
-            <h3 class="title">Приєднуйтесь</h3>
-            <p>Заповнюєте у полі адресу Вашої електронної пошти і ми зв’язуємося з Вами.</p>
-                <input
+            <h3 class="title-send">Приєднуйтесь</h3>
+            <p class="paragraph-send">Заповнюєте у полі адресу Вашої електронної пошти і ми<br/> зв’язуємося з Вами.</p>
+        <div class="footer-mail">
+            <input
                     type="email"
                     name="mail"
                     class="form-email"
@@ -271,9 +271,11 @@
                     placeholder="youremail@domain.com"
                     required/>
             <button class="btn-send">Надіслати</button>
-        </div>
+        </div>        
+            
+        
         </form>
-        <p>© 2021 EtherSofts. Court Control. All rights reserved</p>
+        <p class="footer-par">© 2021 EtherSofts. Court Control. All rights reserved</p>
     </footer>
 </body>
 </html>
