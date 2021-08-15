@@ -144,26 +144,26 @@ p {
   height: 600px;
   border-color: var(--secondary-bg-color);
 }
+
 .hero-section {
   display: flex;
-  justify-content: space-between;
 }
 
 .hero-title {
   font-weight: 600;
-  font-size: 42px;
+  font-size: 41px;
   padding-top: 157px;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .img_hero {
   padding-top: 45px;
-  margin-left: 560px;
+  margin-left: -30px;
 }
 
 .hero-list {
   display: flex;
-  margin-top: -180px;
+  margin-top: -135px;
 }
 
 .hero-link:not(:first-child) {
@@ -213,6 +213,7 @@ p {
 
 .rev-icon {
   float: right;
+  padding-top: 30px;
 }
 
 .rev-title {
@@ -294,12 +295,20 @@ p {
 .court-control {
   height: 1270px;
 }
+
+.icon-top {
+  float: right;
+  margin-top: -50px;
+}
+
 .court-information {
   display: flex;
 }
+
 .iphone {
   padding-top: 251px;
 }
+
 .court-properties {
   display: flex;
   flex-direction: column;
