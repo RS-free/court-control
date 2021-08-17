@@ -64,9 +64,7 @@ img {
   overflow: hidden;
 }
 
-.container {
-  min-width: 1440px;
-  /* width: 100%; */
+.container-fluid {
   padding: 0 108px;
   margin: 0;
   margin-left: auto;
