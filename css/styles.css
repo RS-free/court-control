@@ -73,6 +73,7 @@ p {
   background-color: var(--bg-color-header-footer);
   height: 79px;
   display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -87,12 +88,20 @@ p {
   padding-left: 19px;
 }
 
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+}
 .btn_enter {
   width: 220px;
   height: 53px;
   background-color: var(--btn-color-header);
   border-radius: 6px;
-  margin-left: 750px;
   cursor: pointer;
   border: none;
   display: flex;
@@ -132,6 +141,7 @@ p {
   height: 51px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .inf-list {
