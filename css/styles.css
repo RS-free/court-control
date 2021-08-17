@@ -50,7 +50,7 @@ p {
 
 img {
   display: block;
-  /* width: 100%; */
+  max-width: 100%;
 }
 
 .visually-hidden {
@@ -65,7 +65,7 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  min-width: 1440px;
   /* width: 100%; */
   padding: 0 108px;
   margin: 0;
@@ -180,7 +180,7 @@ img {
 .hero-title {
   display: inline-block;
   font-weight: 600;
-  font-size: 41px;
+  font-size: 38px;
 }
 
 .img_hero {
