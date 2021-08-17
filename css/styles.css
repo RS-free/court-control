@@ -48,6 +48,11 @@ p {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -60,9 +65,9 @@ p {
 }
 
 .container {
-  width: 1440px;
-  padding-right: 108px;
-  padding-left: 108px;
+  /* width: 1440px; */
+  width: 100%;
+  padding: 0 108px;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -139,29 +144,24 @@ p {
 .information {
   background-color: var(--bg-color-inform);
   height: 51px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .inf-list {
+  padding-top: 11px;
   display: flex;
+  justify-content: space-between;
 }
 
 .inf-link {
   font-weight: 500;
   font-size: 21px;
   color: var(--logo-text-color);
-  transition: transform 250ms linear;
-}
-
-.inf-link:not(:first-child) {
-  padding-left: 116px;
+  /* transition: transform 250ms linear; */
 }
 
 .inf-link:hover,
 .inf-link:focus {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   font-weight: 600;
 }
 
@@ -173,12 +173,14 @@ p {
 
 .hero-section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-title {
+  display: inline-block;
   font-weight: 600;
   font-size: 41px;
-  padding-top: 157px;
 }
 
 .img_hero {
@@ -220,6 +222,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 115px;
   row-gap: 60px;
+  justify-items: center;
 }
 
 .advantages-link .advantages-icon {
@@ -262,11 +265,7 @@ p {
 
 .rev-list {
   display: flex;
-  justify-content: center;
-}
-
-.rev-user {
-  padding-left: 45px;
+  justify-content: space-evenly;
 }
 
 .user-inform {
@@ -327,7 +326,7 @@ p {
 }
 
 .partners-icon:not(:first-child) {
-  padding-left: 58px;
+  margin: 0 0 0 58px;
 }
 
 .partners-icon {
@@ -357,6 +356,7 @@ p {
 
 .court-information {
   display: flex;
+  justify-content: space-between;
 }
 
 .iphone {
@@ -368,7 +368,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 81px;
+  /* padding-left: 81px; */
 }
 
 .court-title {
