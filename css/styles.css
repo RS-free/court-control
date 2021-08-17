@@ -65,8 +65,8 @@ img {
 }
 
 .container {
-  /* width: 1440px; */
-  width: 100%;
+  width: 1440px;
+  /* width: 100%; */
   padding: 0 108px;
   margin: 0;
   margin-left: auto;
@@ -180,7 +180,7 @@ img {
 .hero-title {
   display: inline-block;
   font-weight: 600;
-  font-size: 41px;
+  font-size: 42px;
 }
 
 .img_hero {
@@ -356,7 +356,7 @@ img {
 
 .court-information {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .iphone {
@@ -368,7 +368,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* padding-left: 81px; */
+  padding-left: 81px;
 }
 
 .court-title {
