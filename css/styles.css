@@ -67,7 +67,7 @@ img {
 .container-fluid {
     /* width: 1440px; */
     width: 100%;
-    padding: 0 108px;
+    padding: 0 50px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -191,7 +191,6 @@ img {
     position: absolute;
     width: 609px;
     height: 153px;
-    left: 106px;
     top: 284px;
     font-weight: 600;
     font-size: 36px;
@@ -226,6 +225,7 @@ img {
 /* section advantages */
 .advantages {
     background-color: var(--secondary-bg-color);
+    height: 695px;
 }
 
 .advantages-title {
@@ -371,7 +371,7 @@ img {
 
 /* section court-control */
 .court-control {
-    height: 1150px;
+    height: 1220px;
 }
 
 .icon-top {
