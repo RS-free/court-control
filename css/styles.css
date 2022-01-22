@@ -193,7 +193,7 @@ img {
     height: 153px;
     top: 284px;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 42px;
     line-height: 51px;
 }
 
@@ -204,7 +204,7 @@ img {
 
 .hero-list {
     display: flex;
-    margin-top: -140px;
+    margin-top: -125px;
 }
 
 .hero-link:not(:first-child) {
@@ -263,7 +263,7 @@ img {
 .adv-icon_title {
     font-weight: 600;
     font-size: 24px;
-    text-align: start;
+    text-align: center;
     padding-top: 30px;
 }
 
