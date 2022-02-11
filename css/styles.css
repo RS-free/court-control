@@ -281,6 +281,7 @@ img {
     float: right;
     padding-top: 30px;
     transition: transform 250ms linear;
+    display: none;
 }
 
 .rev-icon:hover,
@@ -378,6 +379,7 @@ img {
     float: right;
     margin-top: -50px;
     transition: transform 250ms linear;
+    display: none;
 }
 
 .icon-top:hover,
@@ -578,25 +580,13 @@ img {
 .back-to-top {
     position: fixed;
     right: 20px;
-    bottom: 45px;
-    width: 40px;
-    height: 40px;
+    bottom: 170px;
+    width: 35px;
+    height: 35px;
     /* border: 5px solid var(--btn-color-header); */
     border-radius: 50%;
     /* background-color: var(--logo-text-color); */
     display: none;
-
-    @media screen and (max-width: 767px) {
-        right: -5px;
-        bottom: 90px;
-        border: none;
-        background-color: transparent;
-    }
-
-    @media screen and (max-width: 911px) {
-        width: 40px;
-        height: 40px;
-    }
 }
 
 .back-to-top:hover,
@@ -608,21 +598,29 @@ img {
 .back-to-top::before,
 .back-to-top::after {
     content: '';
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     display: flex;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    background-image: url(../images/btn_top.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-repeat: no-repeat;
+    background-position-x: center; */
+    background-size: cover;
+    top: 15px;
 }
 
-.back-to-top::before {
-    /* width: 5px;
+/* .back-to-top::before { */
+/* width: 5px;
     height: 25px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     background-color: var(--btn-color-header); */
 
-    width: 32px;
+/* width: 32px;
     height: 32px;
     transform: translate(-50%, -50%) rotate(45deg);
     border-top: 8px solid var(--btn-color-header);
@@ -630,13 +628,13 @@ img {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     background-color: transparent;
-}
+} */
 
-.back-to-top::after {
+/* .back-to-top::after {
     width: 30px;
     height: 30px;
     transform: translate(-50%, -50%) rotate(45deg);
     border-top: 9px solid var(--btn-color-header);
     border-left: 9px solid var(--btn-color-header);
     margin-top: 15px;
-}
+} */
