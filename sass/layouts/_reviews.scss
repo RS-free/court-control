@@ -1,8 +1,9 @@
 /* section reviews */
 .reviews {
-    height: 1050px;
+    height: 930px;
 
     @media screen and (min-width: 480px) {
+        height: 780px;
     }
 
     @media screen and (min-width: 768px) {
@@ -29,12 +30,15 @@
     align-items: center;
 
     @media screen and (min-width: 480px) {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     @media screen and (min-width: 768px) {
         display: flex;
         align-items: flex-start;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     @media screen and (min-width: 1300px) {
@@ -69,6 +73,30 @@
     padding-bottom: 20px;
 
     @media screen and (min-width: 480px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1300px) {
         padding-bottom: 0px;
+    }
+}
+
+.rev-text__mob {
+    display: none;
+
+    @media screen and (min-width: 480px) {
+        display: block;
+        padding-top: 27px;
+        line-height: 1.4;
+        padding-bottom: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
     }
 }
