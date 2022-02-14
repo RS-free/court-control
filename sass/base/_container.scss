@@ -6,7 +6,7 @@
         padding: 0 20px;
         margin-left: auto;
         margin-right: auto;
-        background-color: pink;
+        // background-color: pink;
     }
 
     @media screen and (min-width: 480px) {
@@ -14,18 +14,18 @@
         padding: 0 25px;
         margin-left: auto;
         margin-right: auto;
-        background-color: aqua;
+        // background-color: aqua;
     }
 
     @media screen and (min-width: 768px) {
         max-width: 768px;
         padding: 0 30px;
-        background-color: coral;
+        // background-color: coral;
     }
 
     @media screen and (min-width: 1300px) {
         max-width: 1300px;
         padding: 0 50px;
-        background-color: yellowgreen;
+        // background-color: yellowgreen;
     }
 }
