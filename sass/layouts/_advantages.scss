@@ -1,0 +1,37 @@
+/* section advantages */
+.advantages {
+    background-color: var(--secondary-bg-color);
+    height: 695px;
+}
+
+.advantages-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    row-gap: 60px;
+    justify-items: center;
+}
+
+.advantages-link .advantages-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advantages-icon {
+    transition: transform 250ms linear;
+    transform: scale(1);
+    cursor: pointer;
+    fill: var(--btn-color-section);
+}
+
+.advantages-icon:hover,
+.advantages-icon:focus {
+    fill: yellowgreen;
+    transform: scale(1.2);
+}
+
+.adv-icon_paragraph {
+    padding-top: 30px;
+    line-height: 1.4;
+}

@@ -1,0 +1,18 @@
+.social-icon {
+    display: flex;
+    padding-top: 44px;
+    padding-bottom: 30px;
+}
+
+.footer-icon {
+    fill: var(--logo-text-color);
+    cursor: pointer;
+}
+.footer-icon:not(:first-child) {
+    padding-left: 25px;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    fill: var(--hover-social-icon);
+}

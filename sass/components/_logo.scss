@@ -1,0 +1,39 @@
+/* header */
+.logo-link {
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--logo-text-color);
+    padding-left: 19px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footer-logo-inform {
+    display: flex;
+}
+
+.logo-footer {
+    width: 57px;
+    height: 57px;
+}
+
+.logo-description {
+    padding-left: 21px;
+}
+
+.logo-link-footer {
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--logo-text-color);
+}
+
+.footer-logo-paragraph {
+    font-size: 12px;
+    color: var(--accent-text-color);
+    padding-top: 7px;
+}

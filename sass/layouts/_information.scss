@@ -1,0 +1,35 @@
+/* section information */
+.information {
+    background-color: var(--bg-color-inform);
+    height: 51px;
+}
+
+.inf-list {
+    padding-top: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+.inf-link {
+    font-weight: 500;
+    font-size: 21px;
+    color: var(--logo-text-color);
+    position: relative;
+}
+
+.inf-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: yellowgreen;
+    transition: transform 250ms linear;
+    transform: scale(0);
+}
+
+.inf-link:hover::after,
+.inf-link:focus::after {
+    transform: scale(1);
+}

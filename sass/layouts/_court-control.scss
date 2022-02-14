@@ -1,0 +1,53 @@
+/* section court-control */
+.court-control {
+    height: 1220px;
+}
+
+.icon-top {
+    float: right;
+    margin-top: -50px;
+    transition: transform 250ms linear;
+    display: none;
+}
+
+.icon-top:hover,
+.icon-top:focus {
+    transform: scale(1.12);
+}
+
+.court-information {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.iphone {
+    padding-top: 251px;
+}
+
+.court-properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 81px;
+}
+
+.court-par {
+    line-height: 1.7;
+    padding-bottom: 66px;
+}
+
+.court-link:not(:first-child) {
+    margin-top: 13px;
+}
+
+.court-link {
+    transition: transform 250ms linear;
+}
+
+.court-link:hover,
+.court-link:focus {
+    transform: scale(1.12);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.562);
+    border-radius: 6px;
+}

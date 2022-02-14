@@ -1,0 +1,37 @@
+/* section reviews */
+.reviews {
+    height: 670px;
+}
+
+.rev-icon {
+    float: right;
+    padding-top: 30px;
+    transition: transform 250ms linear;
+    display: none;
+}
+
+.rev-icon:hover,
+.rev-icon:focus {
+    transform: scale(1.12);
+}
+
+.rev-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-inform {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.rev-text {
+    padding-top: 27px;
+    line-height: 1.7;
+}

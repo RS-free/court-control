@@ -1,0 +1,35 @@
+/* hero */
+.hero {
+    height: 600px;
+    border-color: var(--secondary-bg-color);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_hero {
+    width: 600px;
+    padding-top: 45px;
+}
+
+.hero-list {
+    display: flex;
+    margin-top: -125px;
+}
+
+.hero-link:not(:first-child) {
+    margin-left: 35px;
+}
+
+.hero-link {
+    transition: transform 250ms linear;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    transform: scale(1.12);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.562);
+    border-radius: 6px;
+}

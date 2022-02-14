@@ -1,0 +1,12 @@
+/* header */
+.page-header {
+    background-color: var(--bg-color-header-footer);
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
