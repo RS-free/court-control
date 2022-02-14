@@ -1,6 +1,6 @@
 /* section advantages */
 .advantages {
-    // background-color: var(--secondary-bg-color);
+    background-color: var(--secondary-bg-color);
     height: 1450px;
 
     @media screen and (min-width: 480px) {
@@ -11,7 +11,7 @@
         height: 850px;
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1300px) {
         height: 695px;
     }
 }
@@ -30,7 +30,7 @@
         row-gap: 40px;
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1300px) {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 30px;
         row-gap: 60px;
@@ -62,7 +62,7 @@
         height: 50px;
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1300px) {
         width: 52px;
         height: 52px;
     }
