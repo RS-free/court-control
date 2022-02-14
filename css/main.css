@@ -2,7 +2,6 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
   outline: 1px solid red;
 }
 
@@ -103,7 +102,7 @@ img {
 /* hero */
 .hero-title {
   position: absolute;
-  width: 21.3em;
+  width: 18.65em;
   margin-top: 5px;
   font-weight: 600;
   font-size: 15px;
@@ -112,7 +111,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .hero-title {
-    width: 480px;
+    width: 430px;
     margin-top: 10px;
     font-weight: 600;
     font-size: 20px;
@@ -122,7 +121,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero-title {
-    width: 768px;
+    width: 708px;
     margin-top: 10px;
     font-weight: 600;
     font-size: 30px;
@@ -130,9 +129,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero-title {
-    width: 1200px;
+    width: 1300px;
     margin-top: 140px;
     font-weight: 600;
     font-size: 42px;
@@ -525,7 +524,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero {
     height: 600px;
   }
@@ -548,7 +547,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .img_hero {
     margin-left: 0;
     padding-top: 45px;
@@ -567,7 +566,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero-list {
     margin-top: -135px;
     justify-content: start;
