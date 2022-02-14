@@ -1,7 +1,7 @@
 /* section advantages */
 .advantages {
     // background-color: var(--secondary-bg-color);
-    height: 1280px;
+    height: 1450px;
 
     @media screen and (min-width: 480px) {
         height: 940px;
@@ -60,6 +60,31 @@
 }
 
 .adv-icon_paragraph {
-    padding-top: 30px;
-    line-height: 1.4;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+.adv-mobile {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    @media screen and (min-width: 480px) {
+        display: none;
+    }
+}
+
+.adv-mobile-icon {
+    display: none;
+
+    @media screen and (min-width: 480px) {
+        display: block;
+        margin-top: 30px;
+    }
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }
