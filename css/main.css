@@ -61,16 +61,10 @@ img {
 
 .container-fluid {
   width: 100%;
-}
-
-@media screen and (min-width: 320px) {
-  .container-fluid {
-    max-width: 320px;
-    padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: pink;
-  }
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: pink;
 }
 
 @media screen and (min-width: 480px) {
@@ -102,7 +96,7 @@ img {
 /* hero */
 .hero-title {
   position: absolute;
-  width: 18.65em;
+  width: 100%;
   margin-top: 5px;
   font-weight: 600;
   font-size: 15px;
@@ -509,7 +503,7 @@ img {
 
 /* hero */
 .hero {
-  height: 330px;
+  height: 400px;
 }
 
 @media screen and (min-width: 480px) {
@@ -556,14 +550,9 @@ img {
 
 .hero-list {
   display: flex;
-}
-
-@media screen and (min-width: 320px) {
-  .hero-list {
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-  }
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1400px) {
@@ -602,7 +591,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero-link {
     width: 175px;
     height: 50px;
