@@ -811,6 +811,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .reviews {
+    height: 720px;
+  }
+}
+
 @media screen and (min-width: 1300px) {
   .reviews {
     height: 670px;
