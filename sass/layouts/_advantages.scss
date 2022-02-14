@@ -1,15 +1,39 @@
 /* section advantages */
 .advantages {
-    background-color: var(--secondary-bg-color);
-    height: 695px;
+    // background-color: var(--secondary-bg-color);
+    height: 1280px;
+
+    @media screen and (min-width: 480px) {
+        height: 940px;
+    }
+
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1400px) {
+        height: 695px;
+    }
 }
 
 .advantages-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    row-gap: 60px;
-    justify-items: center;
+
+    @media screen and (min-width: 480px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        row-gap: 20px;
+        justify-items: center;
+    }
+
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1400px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        row-gap: 60px;
+        justify-items: center;
+    }
 }
 
 .advantages-link .advantages-icon {
@@ -19,6 +43,8 @@
 }
 
 .advantages-icon {
+    width: 52px;
+    height: 52px;
     transition: transform 250ms linear;
     transform: scale(1);
     cursor: pointer;
