@@ -66,7 +66,7 @@ img {
   position: absolute;
   width: 609px;
   height: 153px;
-  top: 284px;
+  margin-top: 140px;
   font-weight: 600;
   font-size: 42px;
   line-height: 51px;
@@ -442,7 +442,6 @@ img {
 /* hero */
 .hero {
   height: 600px;
-  border-color: var(--secondary-bg-color);
 }
 
 .hero-section {
@@ -457,7 +456,7 @@ img {
 
 .hero-list {
   display: flex;
-  margin-top: -125px;
+  margin-top: -135px;
 }
 
 .hero-link:not(:first-child) {

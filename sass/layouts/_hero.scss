@@ -1,7 +1,6 @@
 /* hero */
 .hero {
     height: 600px;
-    border-color: var(--secondary-bg-color);
 }
 
 .hero-section {
@@ -16,7 +15,7 @@
 
 .hero-list {
     display: flex;
-    margin-top: -125px;
+    margin-top: -135px;
 }
 
 .hero-link:not(:first-child) {
