@@ -17,7 +17,7 @@
         padding-top: 70px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1400px) {
         margin-left: 0;
         padding-top: 45px;
     }
@@ -25,7 +25,17 @@
 
 .hero-list {
     display: flex;
-    margin-top: -135px;
+
+    @media screen and (min-width: 320px) {
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 1400px) {
+        margin-top: -135px;
+        justify-content: start;
+    }
 }
 
 .hero-link:not(:first-child) {
@@ -34,6 +44,26 @@
 
 .hero-link {
     transition: transform 250ms linear;
+
+    @media screen and (min-width: 320px) {
+        width: 100px;
+        height: 25px;
+    }
+
+    @media screen and (min-width: 480px) {
+        width: 120px;
+        height: 35px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 140px;
+        height: 40px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        width: 175px;
+        height: 50px;
+    }
 }
 
 .hero-link:hover,
