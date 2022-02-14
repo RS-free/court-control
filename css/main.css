@@ -321,10 +321,10 @@ img {
 /* hero */
 .hero-title {
   position: absolute;
-  width: 21.3em;
+  width: 16em;
   margin-top: 5px;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -332,9 +332,7 @@ img {
   .hero-title {
     width: 480px;
     margin-top: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
+    font-size: 25px;
   }
 }
 
@@ -363,12 +361,14 @@ img {
 .advantages-title {
   margin-top: 40px;
   margin-bottom: 40px;
+  font-size: 25px;
 }
 
 @media screen and (min-width: 1300px) {
   .advantages-title {
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 35px;
   }
 }
 
@@ -675,7 +675,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
-    height: 520px;
+    height: 570px;
   }
 }
 
@@ -697,7 +697,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .img_hero {
-    margin-left: -100px;
+    margin-right: 80px;
     padding-top: 70px;
   }
 }
