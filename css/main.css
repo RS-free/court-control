@@ -1,4 +1,11 @@
 @charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 1px solid red;
+}
+
 body {
   font-size: 18px;
   font-weight: normal;
@@ -53,8 +60,6 @@ img {
 }
 
 .container-fluid {
-  /* width: 1440px; */
-  width: 100%;
   padding: 0 50px;
   margin: 0;
   margin-left: auto;

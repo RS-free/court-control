@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: 1px solid red;
+}
+
 body {
     font-size: 18px;
     font-weight: normal;
