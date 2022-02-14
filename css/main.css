@@ -61,7 +61,8 @@ img {
 }
 
 .container-fluid {
-  max-width: 320px;
+  width: 100%;
+  padding: 0 30px;
   margin-left: auto;
   margin-right: auto;
   background-color: pink;
@@ -85,7 +86,8 @@ img {
 
 @media screen and (min-width: 1400px) {
   .container-fluid {
-    max-width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
     background-color: yellowgreen;
   }
 }
