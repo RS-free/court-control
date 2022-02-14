@@ -7,6 +7,7 @@
 
     @media screen and (min-width: 480px) {
         max-width: 480px;
+        padding: 0 25px;
         margin-left: auto;
         margin-right: auto;
         background-color: aqua;
@@ -14,6 +15,7 @@
 
     @media screen and (min-width: 768px) {
         max-width: 768px;
+        padding: 0 30px;
         background-color: coral;
     }
 
