@@ -130,9 +130,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero-title {
-    width: 1400px;
+    width: 1200px;
     margin-top: 140px;
     font-weight: 600;
     font-size: 42px;
@@ -525,7 +525,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero {
     height: 600px;
   }
@@ -548,7 +548,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .img_hero {
     margin-left: 0;
     padding-top: 45px;
@@ -567,7 +567,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero-list {
     margin-top: -135px;
     justify-content: start;
@@ -603,7 +603,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero-link {
     width: 175px;
     height: 50px;
