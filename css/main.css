@@ -1,4 +1,11 @@
 @charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 1px solid red;
+}
+
 body {
   font-size: 18px;
   font-weight: normal;
@@ -63,6 +70,7 @@ img {
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
+    background-color: pink;
   }
 }
 
@@ -72,6 +80,7 @@ img {
     padding: 0 25px;
     margin-left: auto;
     margin-right: auto;
+    background-color: aqua;
   }
 }
 
@@ -79,6 +88,7 @@ img {
   .container-fluid {
     max-width: 768px;
     padding: 0 30px;
+    background-color: coral;
   }
 }
 
@@ -86,6 +96,7 @@ img {
   .container-fluid {
     max-width: 1300px;
     padding: 0 50px;
+    background-color: yellowgreen;
   }
 }
 
@@ -448,7 +459,6 @@ img {
 
 /* section advantages */
 .advantages {
-  background-color: var(--secondary-bg-color);
   height: 1350px;
 }
 
