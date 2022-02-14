@@ -1,19 +1,14 @@
 .container-fluid {
     // width: 1400px;
     max-width: 320px;
-    padding: 0 20px;
+    // padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: pink;
 
-    // @media screen and (min-width: 320px) {
-    //     max-width: 320px;
-
-    // }
-
     @media screen and (min-width: 480px) {
         max-width: 480px;
-        padding: 0 25px;
+        // padding: 0 25px;
         margin-left: auto;
         margin-right: auto;
         background-color: aqua;
@@ -21,13 +16,13 @@
 
     @media screen and (min-width: 768px) {
         max-width: 768px;
-        padding: 0 30px;
+        // padding: 0 30px;
         background-color: coral;
     }
 
     @media screen and (min-width: 1400px) {
         max-width: 100%;
-        padding: 0 50px;
+        // padding: 0 50px;
         background-color: yellowgreen;
     }
 }
