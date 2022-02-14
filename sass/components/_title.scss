@@ -1,6 +1,11 @@
 /* hero */
 .hero-title {
     position: absolute;
+    width: 280px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
 
     @media screen and (min-width: 480px) {
         width: 380px;
