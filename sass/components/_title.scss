@@ -93,7 +93,7 @@
     margin-bottom: 40px;
     font-size: 25px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         padding-top: 50px;
         margin-bottom: 50px;
         font-size: 35px;
@@ -102,8 +102,15 @@
 
 /* section stability */
 .stab-title {
-    padding-top: 54px;
-    padding-bottom: 19px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
 }
 
 /* section court-control */

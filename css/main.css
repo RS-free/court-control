@@ -435,7 +435,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .rev-title {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -445,8 +445,17 @@ img {
 
 /* section stability */
 .stab-title {
-  padding-top: 54px;
-  padding-bottom: 19px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .stab-title {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
 }
 
 /* section court-control */
@@ -936,7 +945,6 @@ img {
 
 .stability {
   height: 680px;
-  background-color: var(--secondary-bg-color);
 }
 
 .stab-paragraph {
@@ -962,6 +970,13 @@ img {
 .partners-title {
   padding-top: 151px;
   padding-bottom: 75px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .partners-title {
+    font-size: 35px;
+  }
 }
 
 .court-partners {

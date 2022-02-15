@@ -1,6 +1,6 @@
 .stability {
     height: 680px;
-    background-color: var(--secondary-bg-color);
+    // background-color: var(--secondary-bg-color);
 }
 
 .stab-paragraph {
@@ -26,6 +26,13 @@
 .partners-title {
     padding-top: 151px;
     padding-bottom: 75px;
+    font-size: 25px;
+
+    @media screen and (min-width: 1200px) {
+        // padding-top: 50px;
+        // margin-bottom: 50px;
+        font-size: 35px;
+    }
 }
 
 .court-partners {
