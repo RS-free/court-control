@@ -11,7 +11,7 @@
         height: 820px;
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1200px) {
         height: 695px;
     }
 }
@@ -30,7 +30,7 @@
         row-gap: 40px;
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1200px) {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 30px;
         row-gap: 60px;
@@ -62,7 +62,7 @@
         height: 50px;
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1200px) {
         width: 52px;
         height: 52px;
     }
