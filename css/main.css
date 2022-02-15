@@ -92,9 +92,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .container-fluid {
-    max-width: 1300px;
+    max-width: 1024px;
     padding: 0 50px;
     background-color: yellowgreen;
   }
@@ -344,9 +344,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .hero-title {
-    width: 1300px;
+    width: 1024px;
     margin-top: 140px;
     font-size: 42px;
     line-height: 51px;
@@ -361,7 +361,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .advantages-title {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -392,7 +392,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .adv-icon_title {
     font-weight: 600;
     font-size: 24px;
@@ -421,7 +421,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .adv-tablet {
     display: none;
   }
@@ -471,7 +471,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .advantages {
     height: 695px;
   }
@@ -496,7 +496,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .advantages-list {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -534,7 +534,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .advantages-icon {
     width: 52px;
     height: 52px;
@@ -701,7 +701,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .img_hero {
     margin-left: 0;
     padding-top: 45px;
@@ -727,7 +727,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .hero-list {
     margin-top: -135px;
     justify-content: start;
@@ -758,7 +758,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .hero-link {
     width: 175px;
     height: 50px;
@@ -826,7 +826,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .reviews {
     height: 670px;
   }
@@ -864,7 +864,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .rev-list {
     display: flex;
     justify-content: space-evenly;
@@ -908,7 +908,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .rev-text {
     padding-bottom: 0px;
   }
