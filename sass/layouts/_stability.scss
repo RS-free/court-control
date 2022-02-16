@@ -5,26 +5,63 @@
 
 .stab-paragraph {
     text-align: center;
-    padding-bottom: 73px;
+    padding-bottom: 50px;
 }
 
 .stab-work {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+
+    @media screen and (min-width: 480px) {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }
 
 .stab-icon {
+    width: 48px;
+    height: 48px;
     float: left;
     margin-right: 20px;
+
+    @media screen and (min-width: 768px) {
+        width: 35px;
+        height: 35px;
+        padding-top: 6px;
+        padding-left: 6px;
+        margin-right: 5px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 52px;
+        height: 52px;
+        padding: 0;
+        margin-right: 20px;
+    }
 }
 
 .stab-achievement {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: 480px) {
+        padding-bottom: 1px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 0;
+    }
 }
 
 .partners-title {
-    padding-top: 151px;
+    padding-top: 75px;
     padding-bottom: 75px;
     font-size: 25px;
 
@@ -45,7 +82,22 @@
 }
 
 .partners-icon {
+    width: 40px;
+    height: 40px;
     transition: transform 250ms linear;
+
+    @media screen and (min-width: 480px) {
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 .partners-icon:hover,
