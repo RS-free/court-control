@@ -1,6 +1,18 @@
 .stability {
-    height: 680px;
+    height: 740px;
     // background-color: var(--secondary-bg-color);
+
+    @media screen and (min-width: 480px) {
+        height: 680px;
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 560px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        height: 680px;
+    }
 }
 
 .stab-paragraph {
@@ -19,7 +31,7 @@
 
     @media screen and (min-width: 768px) {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: row;
     }
 }
@@ -78,12 +90,24 @@
 }
 
 .partners-icon:not(:first-child) {
-    margin: 0 0 0 58px;
+    margin: 0 0 0 10px;
+
+    @media screen and (min-width: 480px) {
+        margin: 0 0 0 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin: 0 0 0 48px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin: 0 0 0 58px;
+    }
 }
 
 .partners-icon {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     transition: transform 250ms linear;
 
     @media screen and (min-width: 480px) {
