@@ -1,7 +1,14 @@
 .social-icon {
     display: flex;
+    justify-content: center;
     padding-top: 44px;
     padding-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        justify-content: flex-start;
+        padding-top: 44px;
+        padding-bottom: 30px;
+    }
 }
 
 .footer-icon {
