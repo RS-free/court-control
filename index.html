@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
-    <!-- <header class="page-header container-fluid " id="header">
+    <header class="page-header container-fluid " id="header">
         <div class="header-logo">
             <img src="./images/logo.png" alt="logo" />
             <a href="./" class="logo-link link">Суд Контроль</a>
@@ -43,8 +43,59 @@
                     <use href="./images/icons/sprite.svg#icon-avatar"></use>
                 </svg>
                 Вхід до системи</a>
-        </div>
-    </header> -->
+             <button type="button" class="menu-btn" data-menu-button>
+      <svg class="menu-icon" width="40" height="40">
+        <use href="./images/icons/burger.svg"></use>
+      </svg>
+    </button>
+  </div>
+    <div class="mobile-menu" data-menu>
+      <button type="button" class="mobile-menu__close" data-menu-close>
+        <svg class="mobile-menu__close" width="40" height="40">
+          <use href="./images/icons/close.svg"></use>
+        </svg>
+      </button>
+      <div>
+        <ul class="mobile-menu__list">
+          <li class="item__menu">
+            <a href="./" class="link__menu link home_page">Студія</a>
+          </li>
+          <li class="item__menu">
+            <a href="./portfolio.html" class="link__menu link">Портфоліо</a>
+          </li>
+          <li class="item__menu">
+            <a href="" class="link__menu link">Контакти</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="mob-menu__list-contacts">
+          <li class="item-contacts__menu">
+            <a href="tel:+380961111111"
+              class="menu__link-contacts phone link">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-menu__item-contacts">
+            <a href="mailto:info@devstudio.com"
+              class="menu__link-contacts mail link">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mob-menu__list-network">
+          <li class="item-network__menu">
+            <a href="" class="network__menu link">Instagram</a>
+          </li>
+          <li class="item-network__menu">
+            <a href="" class="network__menu link">Twitter</a>
+          </li>
+          <li class="item-network__menu">
+            <a href="" class="network__menu link">Facebook</a>
+          </li>
+          <li class="item-network__menu">
+            <a href="" class="network__menu link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </header>
     <main>
         <!-- <section class="information container-fluid ">
             <h2 class="visually-hidden">Інформація</h2>
@@ -274,7 +325,7 @@
             </div>
         </section> -->
     </main>
-    <footer class="footer container-fluid">
+    <!-- <footer class="footer container-fluid">
         <div>
             <ul class="social-icon">
                 <li class="footer-icon">
@@ -322,10 +373,11 @@
             </div>
         </form>
         <p class="footer-par">© 2021 EtherSofts. Court Control. All rights reserved</p>
-    </footer>
+    </footer> -->
     <a href="#" class="back-to-top"></a>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./js/target.js"></script>
     <script src="./js/backToTop.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

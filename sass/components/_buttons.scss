@@ -10,7 +10,7 @@
     border-radius: 6px;
     cursor: pointer;
     border: none;
-    display: flex;
+    display: none;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-around;
@@ -22,6 +22,10 @@
     font-weight: 400;
     color: var(--logo-text-color);
     transition: transform 250ms linear;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 
 .btn_enter:hover,
