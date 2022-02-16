@@ -1,7 +1,12 @@
 .menu-btn,
 .mobile-menu__close {
-    // background-color: transparent;
+    background-color: transparent;
     border: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+    outline: 2px solid white;
 }
 
 .menu-btn:hover,
@@ -39,8 +44,9 @@
 
 .mobile-menu__close {
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
 }
 .mobile-menu__list {
     font-weight: 500;
