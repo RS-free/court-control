@@ -12,6 +12,7 @@ body {
   font-family: var(--main-fonts);
   line-height: 1.2;
   color: var(--main-text-color);
+  overflow-x: hidden;
 }
 
 ul {
