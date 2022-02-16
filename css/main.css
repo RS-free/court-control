@@ -2,7 +2,6 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
   outline: 1px solid red;
 }
 
@@ -170,18 +169,42 @@ img {
 
 /* section court-control */
 .btn_enter__court {
-  width: 375px;
-  height: 74px;
+  width: 120px;
+  height: 40px;
   background-color: var(--btn-color-section);
   border-radius: 6px;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--logo-text-color);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   transition: transform 250ms linear;
+}
+
+@media screen and (min-width: 480px) {
+  .btn_enter__court {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn_enter__court {
+    width: 275px;
+    height: 74px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn_enter__court {
+    width: 375px;
+    height: 74px;
+  }
 }
 
 .btn_enter__court:hover,
@@ -323,8 +346,8 @@ img {
 /* hero */
 .hero-title {
   position: absolute;
-  width: 16em;
-  margin-top: 250px;
+  width: 14em;
+  margin-top: 220px;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -332,15 +355,15 @@ img {
 
 @media screen and (min-width: 480px) {
   .hero-title {
-    width: 480px;
-    margin-top: 370px;
+    width: 430px;
+    margin-top: 330px;
     font-size: 25px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero-title {
-    width: 768px;
+    width: 708px;
     margin-top: 460px;
     font-size: 30px;
   }
@@ -348,9 +371,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero-title {
-    width: 1200px;
+    width: 1000px;
     margin-top: 140px;
-    font-size: 42px;
+    font-size: 38px;
     line-height: 51px;
     text-align: start;
   }
@@ -461,13 +484,22 @@ img {
 
 /* section court-control */
 .court-title {
-  padding-top: 225px;
-  padding-bottom: 16px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .court-title {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
 }
 
 /* section advantages */
 .advantages {
-  height: 1350px;
+  height: 1400px;
 }
 
 @media screen and (min-width: 480px) {
@@ -600,7 +632,25 @@ img {
 
 /* section court-control */
 .court-control {
-  height: 1220px;
+  height: 400px;
+}
+
+@media screen and (min-width: 480px) {
+  .court-control {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .court-control {
+    height: 820px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .court-control {
+    height: 1220px;
+  }
 }
 
 .icon-top {
@@ -617,24 +667,88 @@ img {
 
 .court-information {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .iphone {
-  padding-top: 251px;
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 480px) {
+  .iphone {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iphone {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .iphone {
+    padding-top: 251px;
+  }
 }
 
 .court-properties {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 81px;
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .court-properties {
+    padding-left: 20px;
+    padding-top: 40px;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .court-properties {
+    padding-left: 81px;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .court-properties {
+    align-items: flex-start;
+  }
 }
 
 .court-par {
-  line-height: 1.7;
-  padding-bottom: 66px;
+  font-size: 10px;
+  line-height: 0.8;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .court-par {
+    font-size: 16px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .court-par {
+    line-height: 1.2;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .court-par {
+    line-height: 1.7;
+    padding-bottom: 66px;
+  }
 }
 
 .court-link:not(:first-child) {
@@ -643,6 +757,29 @@ img {
 
 .court-link {
   transition: transform 250ms linear;
+  width: 100px;
+  height: 25px;
+}
+
+@media screen and (min-width: 480px) {
+  .court-link {
+    width: 120px;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .court-link {
+    width: 140px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .court-link {
+    width: 175px;
+    height: 50px;
+  }
 }
 
 .court-link:hover,
@@ -721,7 +858,7 @@ img {
 
 .hero-list {
   display: flex;
-  margin-top: 95px;
+  margin-top: 120px;
   align-items: center;
   justify-content: center;
 }
@@ -822,7 +959,7 @@ img {
 
 /* section reviews */
 .reviews {
-  height: 930px;
+  height: 1000px;
 }
 
 @media screen and (min-width: 480px) {
@@ -901,9 +1038,7 @@ img {
 }
 
 .rev-text {
-  padding-top: 27px;
-  line-height: 1.7;
-  padding-bottom: 20px;
+  display: none;
 }
 
 @media screen and (min-width: 480px) {
@@ -916,6 +1051,8 @@ img {
   .rev-text {
     display: block;
     padding-bottom: 20px;
+    padding-top: 27px;
+    line-height: 1.7;
   }
 }
 
@@ -926,7 +1063,9 @@ img {
 }
 
 .rev-text__mob {
-  display: none;
+  padding-top: 27px;
+  line-height: 1.7;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 480px) {
@@ -980,10 +1119,19 @@ img {
   .stab-work {
     display: block;
     flex-wrap: wrap;
+    padding-left: 25px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .stab-work {
+    display: block;
+    flex-wrap: wrap;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .stab-work {
     display: flex;
     justify-content: space-evenly;
@@ -1000,11 +1148,9 @@ img {
 
 @media screen and (min-width: 768px) {
   .stab-icon {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     padding-top: 6px;
-    padding-left: 6px;
-    margin-right: 5px;
   }
 }
 

@@ -42,18 +42,36 @@
 
 /* section court-control */
 .btn_enter__court {
-    width: 375px;
-    height: 74px;
+    width: 120px;
+    height: 40px;
     background-color: var(--btn-color-section);
     border-radius: 6px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--logo-text-color);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     transition: transform 250ms linear;
+
+    @media screen and (min-width: 480px) {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 275px;
+        height: 74px;
+        margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 375px;
+        height: 74px;
+    }
 }
 
 .btn_enter__court:hover,

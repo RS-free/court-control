@@ -1,28 +1,28 @@
 /* hero */
 .hero-title {
     position: absolute;
-    width: 16em;
-    margin-top: 250px;
+    width: 14em;
+    margin-top: 220px;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
 
     @media screen and (min-width: 480px) {
-        width: 480px;
-        margin-top: 370px;
+        width: 430px;
+        margin-top: 330px;
         font-size: 25px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 768px;
+        width: 708px;
         margin-top: 460px;
         font-size: 30px;
     }
 
     @media screen and (min-width: 1200px) {
-        width: 1200px;
+        width: 1000px;
         margin-top: 140px;
-        font-size: 42px;
+        font-size: 38px;
         line-height: 51px;
         text-align: start;
     }
@@ -115,6 +115,13 @@
 
 /* section court-control */
 .court-title {
-    padding-top: 225px;
-    padding-bottom: 16px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
 }
