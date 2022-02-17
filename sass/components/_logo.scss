@@ -1,9 +1,14 @@
 /* header */
 .logo-link {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     color: var(--logo-text-color);
-    padding-left: 19px;
+    padding-left: 5px;
+
+    @media screen and (min-width: 480px) {
+        font-size: 25px;
+        padding-left: 19px;
+    }
 }
 
 .header-logo {

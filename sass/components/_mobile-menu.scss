@@ -2,9 +2,9 @@
 .mobile-menu__close {
     background-color: transparent;
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    border-radius: 50px;
+    border-radius: 50%;
     color: white;
     outline: 2px solid white;
 }
@@ -28,13 +28,12 @@
     z-index: 30;
     top: 0;
     left: 50%;
-    width: 100vw;
-    height: 100vh;
+    width: 320px;
+    height: 500px;
     padding: 48px 83px 48px 40px;
-    background-color: grey;
+    background-color: rgba(60, 179, 113, 0.8);
     transform: translateY(-100%) translateX(-50%);
     transition: transform var(--timing-function);
-    outline: 1px solid rgb(14, 25, 128);
     cursor: pointer;
 }
 
@@ -44,19 +43,18 @@
 
 .mobile-menu__close {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 30px;
+    top: 23px;
+    right: 19px;
 }
 .mobile-menu__list {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 1.18;
     letter-spacing: 0.02em;
 
     @media screen and(min-width: 320px) and (max-width: 479px) {
         font-weight: 500;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1.18;
         letter-spacing: 0.02em;
     }
