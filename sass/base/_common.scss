@@ -1,9 +1,9 @@
-*,
-*::before,
-*::after {
-    // box-sizing: inherit;
-    // outline: 1px solid red;
-}
+// *,
+// *::before,
+// *::after {
+//     box-sizing: inherit;
+//     outline: 1px solid red;
+// }
 
 body {
     font-size: 18px;
@@ -11,8 +11,6 @@ body {
     font-family: var(--main-fonts);
     line-height: 1.2;
     color: var(--main-text-color);
-    // margin: 0;
-    // padding: 0;
     overflow-x: hidden;
 }
 

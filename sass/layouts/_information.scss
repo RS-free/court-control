@@ -2,6 +2,11 @@
 .information {
     background-color: var(--bg-color-inform);
     height: 51px;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
 }
 
 .inf-list {

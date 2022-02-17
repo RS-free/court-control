@@ -65,7 +65,6 @@ img {
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: pink;
   }
 }
 
@@ -75,7 +74,6 @@ img {
     padding: 0 25px;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
   }
 }
 
@@ -83,7 +81,6 @@ img {
   .container-fluid {
     width: 768px;
     padding: 0 30px;
-    background-color: coral;
   }
 }
 
@@ -91,7 +88,6 @@ img {
   .container-fluid {
     width: 1200px;
     padding: 0 50px;
-    background-color: yellowgreen;
   }
 }
 
@@ -708,6 +704,7 @@ img {
 
 /* section advantages */
 .advantages {
+  background-color: var(--secondary-bg-color);
   height: 1400px;
 }
 
@@ -1157,6 +1154,13 @@ img {
 .information {
   background-color: var(--bg-color-inform);
   height: 51px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .information {
+    display: block;
+  }
 }
 
 .inf-list {
@@ -1330,6 +1334,7 @@ img {
 
 .stability {
   height: 740px;
+  background-color: var(--secondary-bg-color);
 }
 
 @media screen and (min-width: 480px) {
