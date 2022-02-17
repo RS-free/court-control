@@ -31,7 +31,7 @@
     width: 320px;
     height: 500px;
     padding: 48px 83px 48px 40px;
-    background-color: rgba(60, 179, 113, 0.8);
+    background-color: rgba(60, 179, 113, 0.9);
     transform: translateY(-100%) translateX(-50%);
     transition: transform var(--timing-function);
     cursor: pointer;
@@ -47,17 +47,11 @@
     right: 19px;
 }
 .mobile-menu__list {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.18;
     letter-spacing: 0.02em;
-
-    @media screen and(min-width: 320px) and (max-width: 479px) {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-    }
+    color: white;
+    font-weight: bold;
 }
 
 .item__menu:not(:last-child),
