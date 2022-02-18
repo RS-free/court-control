@@ -84,7 +84,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .container-fluid {
     max-width: 100%;
     padding: 0 50px;
@@ -217,7 +217,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .btn_enter__court {
     width: 375px;
     height: 74px;
@@ -416,7 +416,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero-title {
     width: 1000px;
     margin-top: 140px;
@@ -433,7 +433,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .advantages-title {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -464,7 +464,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .adv-icon_title {
     font-weight: 600;
     font-size: 24px;
@@ -493,7 +493,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .adv-tablet {
     display: none;
   }
@@ -506,7 +506,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .rev-title {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -521,7 +521,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .stab-title {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -536,7 +536,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .court-title {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -697,7 +697,7 @@ img {
 /* section advantages */
 .advantages {
   background-color: var(--secondary-bg-color);
-  height: 1400px;
+  height: 1200px;
 }
 
 @media screen and (min-width: 480px) {
@@ -712,7 +712,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .advantages {
     height: 695px;
   }
@@ -737,7 +737,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .advantages-list {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -775,7 +775,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .advantages-icon {
     width: 52px;
     height: 52px;
@@ -845,7 +845,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .court-control {
     height: 1220px;
   }
@@ -883,7 +883,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .iphone {
     padding-top: 251px;
   }
@@ -942,7 +942,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .court-par {
     line-height: 1.7;
     padding-bottom: 66px;
@@ -973,7 +973,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .court-link {
     width: 175px;
     height: 50px;
@@ -1071,7 +1071,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .img_hero {
     margin-right: 0;
     padding-top: 45px;
@@ -1097,7 +1097,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero-list {
     margin-top: -135px;
     justify-content: start;
@@ -1128,7 +1128,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .hero-link {
     width: 175px;
     height: 50px;
@@ -1174,7 +1174,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .inf-link {
     font-size: 21px;
   }
@@ -1215,7 +1215,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .reviews {
     height: 670px;
   }
@@ -1253,7 +1253,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .rev-list {
     display: flex;
     justify-content: space-evenly;
@@ -1297,7 +1297,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .rev-text {
     padding-bottom: 0px;
   }
@@ -1341,7 +1341,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .stability {
     height: 680px;
   }
@@ -1373,7 +1373,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .stab-work {
     display: flex;
     justify-content: space-evenly;
@@ -1396,7 +1396,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .stab-icon {
     width: 52px;
     height: 52px;
@@ -1417,7 +1417,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .stab-achievement {
     padding: 0;
   }
@@ -1429,7 +1429,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .partners-title {
     font-size: 35px;
   }
@@ -1456,7 +1456,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .partners-icon:not(:first-child) {
     margin: 0 0 0 58px;
   }
@@ -1475,7 +1475,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .partners-icon {
     width: 90px;
     height: 90px;
