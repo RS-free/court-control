@@ -61,7 +61,7 @@ img {
   margin-right: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .container-fluid {
     width: 480px;
     padding: 0 25px;
@@ -193,7 +193,7 @@ img {
   transition: transform 250ms linear;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .btn_enter__court {
     width: 180px;
     height: 50px;
@@ -302,7 +302,7 @@ img {
   padding-left: 5px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .logo-link {
     font-size: 25px;
     padding-left: 19px;
@@ -386,14 +386,13 @@ img {
 /* hero */
 .hero-title {
   position: absolute;
-  width: 14em;
   margin-top: 220px;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .hero-title {
     width: 430px;
     margin-top: 330px;
@@ -441,7 +440,7 @@ img {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .adv-icon_title {
     display: none;
   }
@@ -470,7 +469,7 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .adv-tablet {
     display: block;
     font-weight: 600;
@@ -693,7 +692,7 @@ img {
   height: 1400px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .advantages {
     height: 900px;
   }
@@ -715,7 +714,7 @@ img {
   display: grid;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .advantages-list {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
@@ -754,7 +753,7 @@ img {
   fill: var(--btn-color-section);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .advantages-icon {
     width: 40px;
     height: 40px;
@@ -798,7 +797,7 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .adv-mobile {
     display: none;
   }
@@ -808,7 +807,7 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .adv-mobile-icon {
     display: block;
     margin-top: 30px;
@@ -826,7 +825,7 @@ img {
   height: 400px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .court-control {
     height: 550px;
   }
@@ -864,7 +863,7 @@ img {
   padding-top: 70px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .iphone {
     padding-top: 70px;
   }
@@ -891,7 +890,7 @@ img {
   padding-top: 0;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .court-properties {
     padding-left: 20px;
     padding-top: 40px;
@@ -919,7 +918,7 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .court-par {
     font-size: 16px;
     line-height: 1.2;
@@ -952,7 +951,7 @@ img {
   height: 25px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .court-link {
     width: 120px;
     height: 35px;
@@ -1004,7 +1003,7 @@ img {
   padding-bottom: 50px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .footer-par {
     padding-bottom: 50px;
   }
@@ -1035,7 +1034,7 @@ img {
   height: 370px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .hero {
     height: 530px;
   }
@@ -1078,7 +1077,7 @@ img {
   justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .hero-list {
     margin-top: 120px;
   }
@@ -1107,7 +1106,7 @@ img {
   height: 25px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .hero-link {
     width: 120px;
     height: 35px;
@@ -1196,7 +1195,7 @@ img {
   height: 1000px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .reviews {
     height: 780px;
   }
@@ -1230,7 +1229,7 @@ img {
   align-items: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .rev-list {
     padding-left: 20px;
     padding-right: 20px;
@@ -1275,7 +1274,7 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .rev-text {
     display: none;
   }
@@ -1302,7 +1301,7 @@ img {
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .rev-text__mob {
     display: block;
     padding-top: 27px;
@@ -1322,7 +1321,7 @@ img {
   background-color: var(--secondary-bg-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .stability {
     height: 680px;
   }
@@ -1350,7 +1349,7 @@ img {
   flex-direction: column;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .stab-work {
     display: block;
     flex-wrap: wrap;
@@ -1404,7 +1403,7 @@ img {
   padding-bottom: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .stab-achievement {
     padding-bottom: 1px;
   }
@@ -1437,7 +1436,7 @@ img {
   margin: 0 0 0 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .partners-icon:not(:first-child) {
     margin: 0 0 0 30px;
   }
