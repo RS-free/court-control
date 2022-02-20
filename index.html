@@ -38,7 +38,7 @@
             <a href="./" class="logo-link link">Суд Контроль</a>
         </div>
         <div class="header-btn">
-            <a href="https://app.courtcontrol.com.ua/auth/login" rel="external nofollow" class="btn-enter link">
+            <a href="https://app.courtcontrol.com.ua/auth/login" rel="external" class="btn-enter link">
                 <svg class="btn-icon" width="25px" height="25px">
                     <use href="./images/icons/sprite.svg#icon-avatar"></use>
                 </svg>
@@ -49,12 +49,12 @@
                 <button type="button" class="mobile-menu__close" data-menu-close>X</button>
         <div>
         <ul class="mobile-menu__list">
-            <li class="item__menu"><a class="link" href="#court-control">Про нас</a></li>
+            <li class="item__menu"><a class="link" href="#court-title">Про нас</a></li>
             <li class="item__menu"><a class="link" href="#advantages">Переваги</a></li>
             <li class="item__menu"><a class="link" href="#reviews">Відгуки</a></li>
             <li class="item__menu"><a class="link" href="#partners">Партнери</a></li>
-            <li class="item__menu"><a class="link" href="#court-control">Завантажити</a></li>
-            <li class="item__menu"><a class="link" href="">Контакти</a></li>
+            <li class="item__menu"><a class="link" href="#court-title">Завантажити</a></li>
+            <li class="item__menu"><a class="link" href="#social-icon">Контакти</a></li>
             <li class="item__menu"><a href="https://app.courtcontrol.com.ua/auth/login" rel="external nofollow" class="btn-enter__mob link">
                 <svg class="btn-icon" width="25px" height="25px">
                     <use href="./images/icons/sprite.svg#icon-avatar"></use>
@@ -85,12 +85,12 @@
             <h2 class="visually-hidden">Інформація</h2>
             <nav class="inform-court">
                 <ul class="inf-list">
-                    <li class="inf-link"><a class="link" href="#court-control">Про нас</a></li>
+                    <li class="inf-link"><a class="link" href="#court-title">Про нас</a></li>
                     <li class="inf-link"><a class="link" href="#advantages">Переваги</a></li>
                     <li class="inf-link"><a class="link" href="#reviews">Відгуки</a></li>
                     <li class="inf-link"><a class="link" href="#partners">Партнери</a></li>
-                    <li class="inf-link"><a class="link" href="#court-control">Завантажити</a></li>
-                    <li class="inf-link"><a class="link" href="">Контакти</a></li>
+                    <li class="inf-link"><a class="link" href="#court-title">Завантажити</a></li>
+                    <li class="inf-link"><a class="link" href="#social-icon">Контакти</a></li>
                 </ul>
             </nav>
         </section>
@@ -287,11 +287,11 @@
                 <div class="img-iphone">
                     <img class="iphone" src="./images/iphone.png" alt="iphone">
                 </div>
-                <div class="court-properties">
-                    <h2 class="court-title title">Суд Контроль</h2>
+                <div class="court-properties" id="court-properties">
+                    <h2 class="court-title title" id="court-title">Суд Контроль</h2>
                     <p class="court-par">Мобільний додаток оптимізує роботу юристів, адвокатів,<br /> економить ресурси
                         юридичних фірм та адвокатських об'єднань.</p>
-                    <a href="https://app.courtcontrol.com.ua/auth/login" rel="external nofollow" class="btn_enter__court link">Вхід
+                    <a href="https://app.courtcontrol.com.ua/auth/login" rel="external" class="btn_enter__court link">Вхід
                         до системи</a>
                     <ul>
                         <li class="court-link"><a
@@ -311,7 +311,7 @@
     </main>
     <footer class="footer container-fluid">
         <div>
-            <ul class="social-icon">
+            <ul class="social-icon" id="social-icon">
                 <li class="footer-icon">
                     <a class="footer-icon" href="https://www.facebook.com/%D0%A1%D1%83%D0%B4-%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-103878024808127" rel="external">
                     <svg width="25" height="25px">
@@ -361,6 +361,7 @@
     <a href="#" class="back-to-top"></a>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./js/target.js"></script>
+    <script src="./js/idScrooll.js"></script>
     <script src="./js/backToTop.js"></script>
     <script src="./js/mobile-menu.js"></script>
 </body>
