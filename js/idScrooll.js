@@ -1,15 +1,14 @@
-// Найти все ссылки начинающиеся на #
+// Знайти всі силки, які починаються на #
 const anchors = document.querySelectorAll('a[href^="#"]');
-
-// Цикл по всем ссылкам
+// Цикл по всім силкам
 for (let anchor of anchors) {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault(); // Предотвратить стандартное поведение ссылок
-        // Атрибут href у ссылки, если его нет то перейти к body (наверх не плавно)
+        e.preventDefault(); // Закінчити стандартну поведінку силок
+        // Атрибут href у силки, якщо його немає то перейти к body (наверх не плавно)
         const goto = anchor.hasAttribute('href')
             ? anchor.getAttribute('href')
             : 'body';
-        // Плавная прокрутка до элемента с id = href у ссылки
+        // Плавна прокрутка до елементу с id = href у силки
         document.querySelector(goto).scrollIntoView({
             behavior: 'smooth',
             block: 'start',
