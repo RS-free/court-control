@@ -1,7 +1,5 @@
 /* section reviews */
 .reviews {
-    height: 1000px;
-
     @media screen and (min-width: 480px) {
         height: 780px;
     }
@@ -51,10 +49,6 @@
 .user-inform {
     display: flex;
     align-items: center;
-
-    @media screen and (min-width: 480px) {
-        // justify-content: start;
-    }
 }
 
 .user-name {

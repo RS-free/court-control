@@ -563,7 +563,7 @@ img {
   z-index: 30;
   top: 0;
   left: 50%;
-  width: 320px;
+  width: 100%;
   height: 500px;
   padding: 48px 83px 48px 40px;
   background-color: rgba(60, 179, 113, 0.9);
@@ -1181,10 +1181,6 @@ img {
 }
 
 /* section reviews */
-.reviews {
-  height: 1000px;
-}
-
 @media screen and (min-width: 480px) {
   .reviews {
     height: 780px;
@@ -1307,7 +1303,6 @@ img {
 }
 
 .stability {
-  height: 740px;
   background-color: var(--secondary-bg-color);
 }
 
