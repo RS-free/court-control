@@ -385,8 +385,6 @@ img {
 
 /* hero */
 .hero-title {
-  position: absolute;
-  margin-top: 220px;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -395,7 +393,6 @@ img {
 @media screen and (min-width: 480px) {
   .hero-title {
     width: 430px;
-    margin-top: 330px;
     font-size: 25px;
   }
 }
@@ -403,13 +400,13 @@ img {
 @media screen and (min-width: 768px) {
   .hero-title {
     width: 708px;
-    margin-top: 460px;
     font-size: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero-title {
+    position: absolute;
     width: 1000px;
     margin-top: 140px;
     font-size: 42px;
@@ -689,7 +686,6 @@ img {
 /* section advantages */
 .advantages {
   background-color: var(--secondary-bg-color);
-  height: 1400px;
 }
 
 @media screen and (min-width: 480px) {
@@ -821,10 +817,6 @@ img {
 }
 
 /* section court-control */
-.court-control {
-  height: 400px;
-}
-
 @media screen and (min-width: 480px) {
   .court-control {
     height: 550px;
@@ -983,6 +975,7 @@ img {
 .footer {
   background-color: var(--bg-color-header-footer);
   height: 250px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1031,12 +1024,13 @@ img {
 
 /* hero */
 .hero {
-  height: 370px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 480px) {
   .hero {
     height: 530px;
+    margin-bottom: 0;
   }
 }
 
@@ -1048,45 +1042,41 @@ img {
 
 .hero-section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .img_hero {
   width: 600px;
   padding-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
   .img_hero {
-    margin-right: 55px;
     padding-top: 10px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .img_hero {
-    margin-right: 0;
     padding-top: 45px;
   }
 }
 
 .hero-list {
   display: flex;
-  margin-top: 120px;
+  margin-top: 10px;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (min-width: 480px) {
-  .hero-list {
-    margin-top: 120px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-list {
-    margin-top: 140px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
