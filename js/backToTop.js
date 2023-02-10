@@ -1,4 +1,4 @@
-// скіпт для кнопки backToTop
+// скрипт для кнопки backToTop
 function backToTop() {
     let button = $('.back-to-top');
 
