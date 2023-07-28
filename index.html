@@ -1,68 +1,163 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Суд контроль</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
-    <!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png"> -->
-    <link rel="manifest" href="./images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./css/main.min.css" />
-</head>
-<body>
-    <header class="page-header container-fluid " id="header">
-        <div class="header-logo">
-            <img src="./images/logo.png" alt="logo" />
-            <a href="./" class="logo-link link">Суд Контроль</a>
-        </div>
-        <div class="header-btn">
-            <a href="https://app.courtcontrol.com.ua/auth/login" rel="external" class="btn-enter link">
-                <svg class="btn-icon" width="25px" height="25px">
-                    <use href="./images/icons/sprite.svg#icon-avatar"></use>
-                </svg>
-                Вхід до системи</a>
-                <button type="button" class="menu-btn" data-menu-button>=</button>
-        </div>
-        <div class="mobile-menu" data-menu>
-                <button type="button" class="mobile-menu__close" data-menu-close>X</button>
-        <div>
-        <ul class="mobile-menu__list">
-            <li class="item__menu"><a class="link" href="#court-title">Про нас</a></li>
-            <li class="item__menu"><a class="link" href="#advantages">Переваги</a></li>
-            <li class="item__menu"><a class="link" href="#reviews">Відгуки</a></li>
-            <li class="item__menu"><a class="link" href="#partners">Партнери</a></li>
-            <li class="item__menu"><a class="link" href="#court-title">Завантажити</a></li>
-            <li class="item__menu"><a class="link" href="#social-icon">Контакти</a></li>
-            <li class="item__menu"><a href="https://app.courtcontrol.com.ua/auth/login" rel="external nofollow" class="btn-enter__mob link">
-                <svg class="btn-icon" width="25px" height="25px">
-                    <use href="./images/icons/sprite.svg#icon-avatar"></use>
-                </svg>
-                Вхід до системи</a></li>
-        </ul>
-        </div>
-        <!-- <div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Суд контроль</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./images/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./images/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./images/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./images/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./images/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./images/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./images/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./images/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./images/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./images/favicon/favicon-96x96.png"
+        />
+        <!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png"> -->
+        <link rel="manifest" href="./images/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./images/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
+        <link rel="stylesheet" href="./css/main.min.css" />
+    </head>
+    <body>
+        <header class="page-header container-fluid" id="header">
+            <div class="header-logo">
+                <img src="./images/logo.png" alt="logo" />
+                <a href="./" class="logo-link link">Суд Контроль</a>
+            </div>
+            <div class="header-btn">
+                <a
+                    href="https://app.courtcontrol.com.ua/auth/login"
+                    rel="external"
+                    class="btn-enter link"
+                >
+                    <svg class="btn-icon" width="25px" height="25px">
+                        <use href="./images/icons/sprite.svg#icon-avatar"></use>
+                    </svg>
+                    Вхід до системи</a
+                >
+                <button type="button" class="menu-btn" data-menu-button>
+                    =
+                </button>
+            </div>
+            <div class="mobile-menu" data-menu>
+                <button
+                    type="button"
+                    class="mobile-menu__close"
+                    data-menu-close
+                >
+                    X
+                </button>
+                <div>
+                    <ul class="mobile-menu__list">
+                        <li class="item__menu">
+                            <a class="link" href="#court-title">Про нас</a>
+                        </li>
+                        <li class="item__menu">
+                            <a class="link" href="#advantages">Переваги</a>
+                        </li>
+                        <li class="item__menu">
+                            <a class="link" href="#reviews">Відгуки</a>
+                        </li>
+                        <li class="item__menu">
+                            <a class="link" href="#partners">Партнери</a>
+                        </li>
+                        <li class="item__menu">
+                            <a class="link" href="#court-title">Завантажити</a>
+                        </li>
+                        <li class="item__menu">
+                            <a class="link" href="#social-icon">Контакти</a>
+                        </li>
+                        <li class="item__menu">
+                            <a
+                                href="https://app.courtcontrol.com.ua/auth/login"
+                                rel="external nofollow"
+                                class="btn-enter__mob link"
+                            >
+                                <svg
+                                    class="btn-icon"
+                                    width="25px"
+                                    height="25px"
+                                >
+                                    <use
+                                        href="./images/icons/sprite.svg#icon-avatar"
+                                    ></use>
+                                </svg>
+                                Вхід до системи</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div>
         <ul class="mob-menu__list-network">
             <li class="item-network__menu">
             <a href="" class="network__menu link">Instagram</a>
@@ -78,291 +173,544 @@
             </li>
         </ul>
         </div> -->
-    </div>
-    </header>
-    <main>
-        <section class="information container-fluid ">
-            <h2 class="visually-hidden">Інформація</h2>
-            <nav class="inform-court">
-                <ul class="inf-list">
-                    <li class="inf-link"><a class="link" href="#court-title">Про нас</a></li>
-                    <li class="inf-link"><a class="link" href="#advantages">Переваги</a></li>
-                    <li class="inf-link"><a class="link" href="#reviews">Відгуки</a></li>
-                    <li class="inf-link"><a class="link" href="#partners">Партнери</a></li>
-                    <li class="inf-link"><a class="link" href="#court-title">Завантажити</a></li>
-                    <li class="inf-link"><a class="link" href="#social-icon">Контакти</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section class="hero container-fluid " id="hero">
-            <div class="hero-section">
-                <div>
-                <h1 class="hero-title">Система для автоматизації<br /> процесу моніторингу<br /> стану судових справ</h1>
             </div>
-            <div>
-                <img class="img_hero" src="./images/main_picture.png" alt="hero">
-            </div>
-            </div>
-            <ul class="hero-list">
-                <li class="hero-link"><a
-                        href="https://play.google.com/store/apps/details?id=com.ethersofts.courtcontrol" rel="external"
-                        class="contact link">
-                        <img src="./images/google_play.png" alt="google_play">
-                    </a></li>
-                <li class="hero-link"><a
-                        href="https://apps.apple.com/us/app/%D1%81%D1%83%D0%B4-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/id1536129749"
-                        rel="external" class="contact link">
-                        <img src="./images/app_store.png" alt="app_store">
-                    </a></li>
-            </ul>
-        </section>
-        <section class="advantages container-fluid " id="advantages">
-            <div class="advantages-inf">
-                <h2 class="advantages-title title">Переваги сервісу</h2>
-                <ul class="advantages-list">
-                    <li class="advantages-link">
-                        <svg class="advantages-icon">
-                            <use href="./images/icons/sprite.svg#icon-user"></use>
-                        </svg>
-                        <h3 class="adv-icon_title">Один акаунт</h3>
-                        <h3 class="adv-tablet">Один<br /> акаунт</h3>
-                        <p class="adv-icon_paragraph">Використовуйте один акаунт для<br /> Android, iOS та Web додатків</p>
-                        <p class="adv-mobile">Використовуйте один акаунт для<br /> Android, iOS та Web додатків</p>
-                        <p class="adv-mobile-icon">Використовуйте один акаунт для Android, iOS та Web додатків</p>
-                    </li>
-                    <li class="advantages-link">
-                        <svg class="advantages-icon">
-                            <use href="./images/icons/sprite.svg#icon-mail"></use>
-                        </svg>
-                        <h3 class="adv-icon_title">Сповіщення у телефоні</h3>
-                        <h3 class="adv-tablet">Сповіщення у телефоні</h3>
-                        <p class="adv-icon_paragraph">Отримуйте сповіщення у разі<br /> появи нових рішень або<br /> засідань по обраним справам</p>
-                        <p class="adv-mobile">Отримуйте сповіщення у разі<br /> появи нових рішень або засідань<br /> по обраним справам</p>
-                        <p class="adv-mobile-icon">Отримуйте сповіщення у разі появи нових рішень або засідань по обраним справам</p>
-                    </li>
-                    <li class="advantages-link">
-                        <svg class="advantages-icon" >
-                            <use href="./images/icons/sprite.svg#icon-calendar"></use>
-                        </svg>
-                        <h3 class="adv-icon_title">Інтеграція з календарем</h3>
-                        <h3 class="adv-tablet">Інтеграція з календарем</h3>
-                        <p class="adv-icon_paragraph">Синхронізуйтесь зі своїм<br /> календарем Google і плануйте свій<br /> день з урахуванням засідань</p>
-                        <p class="adv-mobile">Синхронізуйтесь зі своїм<br /> календарем Google і плануйте свій день з урахуванням засідань</p>
-                        <p class="adv-mobile-icon">Синхронізуйтесь зі своїм календарем Google і плануйте свій<br /> день з урахуванням засідань</p>
-                    </li>
-                    <li class="advantages-link">
-                        <svg class="advantages-icon">
-                            <use href="./images/icons/sprite.svg#icon-login"></use>
-                        </svg>
-                        <h3 class="adv-icon_title">Зручна авторизація</h3>
-                        <h3 class="adv-tablet">Зручна<br /> авторизація</h3>
-                        <p class="adv-icon_paragraph">Використовуйте вхід через<br /> соціальні мережі та не вигадуйте<br /> зайві паролі</p>
-                        <p class="adv-mobile">Використовуйте вхід через<br /> соціальні мережі та не вигадуйте<br /> зайві паролі</p>
-                        <p class="adv-mobile-icon">Використовуйте вхід через соціальні мережі та не вигадуйте зайві паролі</p>
-                    </li>
-                    <li class="advantages-link">
-                        <svg class="advantages-icon">
-                            <use href="./images/icons/sprite.svg#icon-folder"></use>
-                        </svg>
-                        <h3 class="adv-icon_title">Категорування справ</h3>
-                        <h3 class="adv-tablet">Категорування<br /> справ</h3>
-                        <p class="adv-icon_paragraph">Ви маєте змогу категорувати<br /> справи по клієнтам та проектам</p>
-                        <p class="adv-mobile">Ви маєте змогу категорувати<br /> справи по клієнтам та проектам</p>
-                        <p class="adv-mobile-icon">Ви маєте змогу категорувати справи по клієнтам та проектам</p>
-                    </li>
-                    <li class="advantages-link">
-                        <svg class="advantages-icon">
-                            <use href="./images/icons/sprite.svg#icon-file"></use>
-                        </svg>
-                        <h3 class="adv-icon_title">Пошук справ</h3>
-                        <h3 class="adv-tablet">Пошук<br /> справ</h3>
-                        <p class="adv-icon_paragraph">Не пам’ятаєте номер справи? Ви<br /> можете знайти її завдяки зручному<br /> пошуку</p>
-                        <p class="adv-mobile">Не пам’ятаєте номер справи?<br />Ви можете знайти її завдяки зручному пошуку</p>
-                        <p class="adv-mobile-icon">Не пам’ятаєте номер справи? Ви можете знайти її завдяки зручному пошуку</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="reviews container-fluid " id="reviews">
-            <div>
-                <a class="link" href="#header"><img class="rev-icon" src="./images/btn_top.png" alt="btn_top"></a>
-                <h2 class="rev-title title">Відгуки про Суд Контроль</h2>
-                <!-- <svg width="56px" height="56px">
-                <use href="./images/icons/sprite.svg#icon-left"></use>
-            </svg> -->
-                <ul class="rev-list">
-                    <li class="rev-user">
-                        <div class="user-inform">
-                            <img src="./images/photo_Mark.png" alt="user_Mark" />
-                            <h3 class="user-name">Марк Яременок</h3>
-                        </div>
-                        <p class="rev-text">Чудовий додаток! Користуюсь<br /> близько двох тижнів - працює як<br />
-                            годинник, інформацію з реєстра і<br /> сайта судової влади підтягує<br /> оперативно. Є
-                            можливість<br /> синхронізації з календарем, дуже<br /> зручно.</p>
-                        <p class="rev-text__mob">Чудовий додаток! Користуюсь близько двох тижнів - працює як
-                            годинник, інформацію з реєстра і сайта судової влади підтягує оперативно. Є
-                            можливість синхронізації з календарем, дуже зручно.</p>
-                    </li>
-                    <li class="rev-user">
-                        <div class="user-inform">
-                            <img src="./images/photo_Ivan.png" alt="user_Ivan" />
-                            <h3 class="user-name">Іван Ільченко</h3>
-                        </div>
-                        <p class="rev-text">Додаток сподобався. Зручно<br /> моніторити рішення по судовим<br />
-                            справам. Один аккаунт для веба<br /> та андроід додатку.</p>
-                        <p class="rev-text__mob">Додаток сподобався. Зручно моніторити рішення по судовим
-                                справам. Один аккаунт для веба та андроід додатку.</p>
-                    </li>
-                    <li class="rev-user">
-                        <div class="user-inform">
-                            <img src="./images/photo_Natalia.png" alt="user_Natalia" />
-                            <h3 class="user-name">Наталя Канонова</h3>
-                        </div>
-                            <p class="rev-text">Чудовий додаток, нічого зайвого.</p>
-                            <p class="rev-text__mob">Чудовий додаток, нічого зайвого.</p>
-                    </li>
-                </ul>
-                <!-- <svg width="56px" height="56px">
-                <use href="./images/icons/sprite.svg#icon-right"></use>
-            </svg> -->
-            </div>
-        </section>
-        <section class="stability container-fluid " id="stability">
-            <div>
-                <h2 class="stab-title title">Стабільна робота</h2>
-                <p class="stab-paragraph">Опрацьовуємо дані з відкритих державних реєстрів</p>
-                <ul class="stab-work">
-                    <li>
-                        <svg class="stab-icon">
-                            <use href="./images/icons/sprite.svg#icon-law-book"></use>
-                        </svg>
-                        <div class="stab-achievement">
-                            <h3>95 млн+</h3>
-                            <p>Судових рішень</p>
-                        </div>
-                    </li>
-                    <li>
-                        <svg class="stab-icon">
-                            <use href="./images/icons/sprite.svg#icon-law-book"></use>
-                        </svg>
-                        <div class="stab-achievement">
-                            <h3>5 тис+</h3>
-                            <p>Користувачів</p>
-                        </div>
-                    </li>
-                    <li>
-                        <svg class="stab-icon">
-                            <use href="./images/icons/sprite.svg#icon-law-book"></use>
-                        </svg>
-                        <div class="stab-achievement">
-                            <h3>10 тис+</h3>
-                            <p>Нових справ за день</p>
-                        </div>
-                    </li>
-                    <li>
-                        <svg class="stab-icon">
-                            <use href="./images/icons/sprite.svg#icon-law-book"></use>
-                        </svg>
-                        <div class="stab-achievement">
-                            <h3>140</h3>
-                            <p>Сповіщень</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div id="partners">
-                <h2 class="partners-title title">Партнери, які нам довіряють</h2>
-                <ul class="court-partners">
-                    <li class="partners-icon"><img src="./images/asters.png" alt="asters" /></li>
-                    <li class="partners-icon"><img src="./images/trident.png" alt="trident" /></li>
-                    <li class="partners-icon"><img src="./images/min_just.png" alt="min_just" /></li>
-                    <li class="partners-icon"><img src="./images/diia.png" alt="diia" /></li>
-                    <li class="partners-icon"><img src="./images/ilf.png" alt="ilf" /></li>
-                </ul>
-            </div>
-        </section>
-        <section class="court-control container-fluid" id="court-control">
-            <a class="link" href="#header"><img class="icon-top" src="./images/btn_top.png" alt="btn_top"></a>
-            <div class="court-information">
-                <div class="img-iphone">
-                    <img class="iphone" src="./images/iphone.png" alt="iphone">
+        </header>
+        <main>
+            <section class="information container-fluid">
+                <h2 class="visually-hidden">Інформація</h2>
+                <nav class="inform-court">
+                    <ul class="inf-list">
+                        <li class="inf-link">
+                            <a class="link" href="#court-title">Про нас</a>
+                        </li>
+                        <li class="inf-link">
+                            <a class="link" href="#advantages">Переваги</a>
+                        </li>
+                        <li class="inf-link">
+                            <a class="link" href="#reviews">Відгуки</a>
+                        </li>
+                        <li class="inf-link">
+                            <a class="link" href="#partners">Партнери</a>
+                        </li>
+                        <li class="inf-link">
+                            <a class="link" href="#court-title">Завантажити</a>
+                        </li>
+                        <li class="inf-link">
+                            <a class="link" href="#social-icon">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="hero container-fluid" id="hero">
+                <div class="hero-section">
+                    <div>
+                        <h1 class="hero-title">
+                            Система для автоматизації<br />
+                            процесу моніторингу<br />
+                            стану судових справ
+                        </h1>
+                    </div>
+                    <div>
+                        <img
+                            class="img_hero"
+                            src="./images/main_picture.png"
+                            alt="hero"
+                        />
+                    </div>
                 </div>
-                <div class="court-properties" id="court-properties">
-                    <h2 class="court-title title" id="court-title">Суд Контроль</h2>
-                    <p class="court-par">Мобільний додаток оптимізує роботу юристів, адвокатів,<br /> економить ресурси
-                        юридичних фірм та адвокатських об'єднань.</p>
-                    <a href="https://app.courtcontrol.com.ua/auth/login" rel="external" class="btn_enter__court link">Вхід
-                        до системи</a>
-                    <ul>
-                        <li class="court-link"><a
-                                href="https://play.google.com/store/apps/details?id=com.ethersofts.courtcontrol"
-                                rel="external" class="contact link">
-                                <img src="./images/google_play.png" alt="google_play">
-                            </a></li>
-                        <li class="court-link"><a
-                                href="https://apps.apple.com/us/app/%D1%81%D1%83%D0%B4-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/id1536129749"
-                                rel="external" class="contact link">
-                                <img src="./images/app_store.png" alt="app_store">
-                            </a></li>
+                <ul class="hero-list">
+                    <li class="hero-link">
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.ethersofts.courtcontrol"
+                            rel="external"
+                            class="contact link"
+                        >
+                            <img
+                                src="./images/google_play.png"
+                                alt="google_play"
+                            />
+                        </a>
+                    </li>
+                    <li class="hero-link">
+                        <a
+                            href="https://apps.apple.com/us/app/%D1%81%D1%83%D0%B4-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/id1536129749"
+                            rel="external"
+                            class="contact link"
+                        >
+                            <img src="./images/app_store.png" alt="app_store" />
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="advantages container-fluid" id="advantages">
+                <div class="advantages-inf">
+                    <h2 class="advantages-title title">Переваги сервісу</h2>
+                    <ul class="advantages-list">
+                        <li class="advantages-link">
+                            <svg class="advantages-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-user"
+                                ></use>
+                            </svg>
+                            <h3 class="adv-icon_title">Один акаунт</h3>
+                            <h3 class="adv-tablet">
+                                Один<br />
+                                акаунт
+                            </h3>
+                            <p class="adv-icon_paragraph">
+                                Використовуйте один акаунт для<br />
+                                Android, iOS та Web додатків
+                            </p>
+                            <p class="adv-mobile">
+                                Використовуйте один акаунт для<br />
+                                Android, iOS та Web додатків
+                            </p>
+                            <p class="adv-mobile-icon">
+                                Використовуйте один акаунт для Android, iOS та
+                                Web додатків
+                            </p>
+                        </li>
+                        <li class="advantages-link">
+                            <svg class="advantages-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-mail"
+                                ></use>
+                            </svg>
+                            <h3 class="adv-icon_title">
+                                Сповіщення у телефоні
+                            </h3>
+                            <h3 class="adv-tablet">Сповіщення у телефоні</h3>
+                            <p class="adv-icon_paragraph">
+                                Отримуйте сповіщення у разі<br />
+                                появи нових рішень або<br />
+                                засідань по обраним справам
+                            </p>
+                            <p class="adv-mobile">
+                                Отримуйте сповіщення у разі<br />
+                                появи нових рішень або засідань<br />
+                                по обраним справам
+                            </p>
+                            <p class="adv-mobile-icon">
+                                Отримуйте сповіщення у разі появи нових рішень
+                                або засідань по обраним справам
+                            </p>
+                        </li>
+                        <li class="advantages-link">
+                            <svg class="advantages-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-calendar"
+                                ></use>
+                            </svg>
+                            <h3 class="adv-icon_title">
+                                Інтеграція з календарем
+                            </h3>
+                            <h3 class="adv-tablet">Інтеграція з календарем</h3>
+                            <p class="adv-icon_paragraph">
+                                Синхронізуйтесь зі своїм<br />
+                                календарем Google і плануйте свій<br />
+                                день з урахуванням засідань
+                            </p>
+                            <p class="adv-mobile">
+                                Синхронізуйтесь зі своїм<br />
+                                календарем Google і плануйте свій день з
+                                урахуванням засідань
+                            </p>
+                            <p class="adv-mobile-icon">
+                                Синхронізуйтесь зі своїм календарем Google і
+                                плануйте свій<br />
+                                день з урахуванням засідань
+                            </p>
+                        </li>
+                        <li class="advantages-link">
+                            <svg class="advantages-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-login"
+                                ></use>
+                            </svg>
+                            <h3 class="adv-icon_title">Зручна авторизація</h3>
+                            <h3 class="adv-tablet">
+                                Зручна<br />
+                                авторизація
+                            </h3>
+                            <p class="adv-icon_paragraph">
+                                Використовуйте вхід через<br />
+                                соціальні мережі та не вигадуйте<br />
+                                зайві паролі
+                            </p>
+                            <p class="adv-mobile">
+                                Використовуйте вхід через<br />
+                                соціальні мережі та не вигадуйте<br />
+                                зайві паролі
+                            </p>
+                            <p class="adv-mobile-icon">
+                                Використовуйте вхід через соціальні мережі та не
+                                вигадуйте зайві паролі
+                            </p>
+                        </li>
+                        <li class="advantages-link">
+                            <svg class="advantages-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-folder"
+                                ></use>
+                            </svg>
+                            <h3 class="adv-icon_title">Категорування справ</h3>
+                            <h3 class="adv-tablet">
+                                Категорування<br />
+                                справ
+                            </h3>
+                            <p class="adv-icon_paragraph">
+                                Ви маєте змогу категорувати<br />
+                                справи по клієнтам та проектам
+                            </p>
+                            <p class="adv-mobile">
+                                Ви маєте змогу категорувати<br />
+                                справи по клієнтам та проектам
+                            </p>
+                            <p class="adv-mobile-icon">
+                                Ви маєте змогу категорувати справи по клієнтам
+                                та проектам
+                            </p>
+                        </li>
+                        <li class="advantages-link">
+                            <svg class="advantages-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-file"
+                                ></use>
+                            </svg>
+                            <h3 class="adv-icon_title">Пошук справ</h3>
+                            <h3 class="adv-tablet">
+                                Пошук<br />
+                                справ
+                            </h3>
+                            <p class="adv-icon_paragraph">
+                                Не пам’ятаєте номер справи? Ви<br />
+                                можете знайти її завдяки зручному<br />
+                                пошуку
+                            </p>
+                            <p class="adv-mobile">
+                                Не пам’ятаєте номер справи?<br />Ви можете
+                                знайти її завдяки зручному пошуку
+                            </p>
+                            <p class="adv-mobile-icon">
+                                Не пам’ятаєте номер справи? Ви можете знайти її
+                                завдяки зручному пошуку
+                            </p>
+                        </li>
                     </ul>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer container-fluid">
-        <div>
-            <ul class="social-icon" id="social-icon">
-                <li class="footer-icon">
-                    <a class="footer-icon" href="https://www.facebook.com/%D0%A1%D1%83%D0%B4-%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-103878024808127" rel="external">
-                    <svg width="25" height="25px">
-                        <use href="./images/icons/sprite.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li class="footer-icon">
-                    <a class="footer-icon" href="https://www.youtube.com/channel/UC_HVRBG_04lOFD2sbtSRXOw" rel="external">
-                    <svg width="34px" height="25px">
-                        <use href="./images/icons/sprite.svg#icon-youtube"></use>
-                    </svg></a>
-                </li>
-                <li class="footer-icon">
-                    <a class="footer-icon" href="http://t.me/+380631541241" rel="external">
-                    <svg width="25px" height="25px">
-                        <use href="./images/icons/sprite.svg#icon-telegram"></use>
-                    </svg></a>
-                </li>
-                <li class="footer-icon">
-                    <a class="footer-icon" href="mailto:ethersofts@gmail.com" rel="external">
-                    <svg width="36px" height="25px">
-                        <use href="./images/icons/sprite.svg#icon-message"></use>
-                    </svg></a>
-                </li>
-            </ul>
-            <div class="footer-logo-inform">
-                <img class="logo-footer" src="./images/logo.png" alt="logo" />
-                <div class="logo-description">
-                    <a href="./" class="logo-link-footer link">Суд Контроль</a>
-                    <p class="footer-logo-paragraph">Система для автоматизації процесу<br /> моніторингу стану судових
-                        справ</p>
+            </section>
+            <section class="reviews container-fluid" id="reviews">
+                <div>
+                    <a class="link" href="#header"
+                        ><img
+                            class="rev-icon"
+                            src="./images/btn_top.png"
+                            alt="btn_top"
+                    /></a>
+                    <h2 class="rev-title title">Відгуки про Суд Контроль</h2>
+                    <!-- <svg width="56px" height="56px">
+                <use href="./images/icons/sprite.svg#icon-left"></use>
+            </svg> -->
+                    <ul class="rev-list">
+                        <li class="rev-user">
+                            <div class="user-inform">
+                                <img
+                                    src="./images/photo_Mark.png"
+                                    alt="user_Mark"
+                                />
+                                <h3 class="user-name">Марк Яременок</h3>
+                            </div>
+                            <p class="rev-text">
+                                Чудовий додаток! Користуюсь<br />
+                                близько двох тижнів - працює як<br />
+                                годинник, інформацію з реєстра і<br />
+                                сайта судової влади підтягує<br />
+                                оперативно. Є можливість<br />
+                                синхронізації з календарем, дуже<br />
+                                зручно.
+                            </p>
+                            <p class="rev-text__mob">
+                                Чудовий додаток! Користуюсь близько двох тижнів
+                                - працює як годинник, інформацію з реєстра і
+                                сайта судової влади підтягує оперативно. Є
+                                можливість синхронізації з календарем, дуже
+                                зручно.
+                            </p>
+                        </li>
+                        <li class="rev-user">
+                            <div class="user-inform">
+                                <img
+                                    src="./images/photo_Ivan.png"
+                                    alt="user_Ivan"
+                                />
+                                <h3 class="user-name">Іван Ільченко</h3>
+                            </div>
+                            <p class="rev-text">
+                                Додаток сподобався. Зручно<br />
+                                моніторити рішення по судовим<br />
+                                справам. Один аккаунт для веба<br />
+                                та андроід додатку.
+                            </p>
+                            <p class="rev-text__mob">
+                                Додаток сподобався. Зручно моніторити рішення по
+                                судовим справам. Один аккаунт для веба та
+                                андроід додатку.
+                            </p>
+                        </li>
+                        <li class="rev-user">
+                            <div class="user-inform">
+                                <img
+                                    src="./images/photo_Natalia.png"
+                                    alt="user_Natalia"
+                                />
+                                <h3 class="user-name">Наталя Канонова</h3>
+                            </div>
+                            <p class="rev-text">
+                                Чудовий додаток, нічого зайвого.
+                            </p>
+                            <p class="rev-text__mob">
+                                Чудовий додаток, нічого зайвого.
+                            </p>
+                        </li>
+                    </ul>
+                    <!-- <svg width="56px" height="56px">
+                <use href="./images/icons/sprite.svg#icon-right"></use>
+            </svg> -->
+                </div>
+            </section>
+            <section class="stability container-fluid" id="stability">
+                <div>
+                    <h2 class="stab-title title">Стабільна робота</h2>
+                    <p class="stab-paragraph">
+                        Опрацьовуємо дані з відкритих державних реєстрів
+                    </p>
+                    <ul class="stab-work">
+                        <li>
+                            <svg class="stab-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-law-book"
+                                ></use>
+                            </svg>
+                            <div class="stab-achievement">
+                                <h3>95 млн+</h3>
+                                <p>Судових рішень</p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg class="stab-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-law-book"
+                                ></use>
+                            </svg>
+                            <div class="stab-achievement">
+                                <h3>5 тис+</h3>
+                                <p>Користувачів</p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg class="stab-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-law-book"
+                                ></use>
+                            </svg>
+                            <div class="stab-achievement">
+                                <h3>10 тис+</h3>
+                                <p>Нових справ за день</p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg class="stab-icon">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-law-book"
+                                ></use>
+                            </svg>
+                            <div class="stab-achievement">
+                                <h3>140</h3>
+                                <p>Сповіщень</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="partners">
+                    <h2 class="partners-title title">
+                        Партнери, які нам довіряють
+                    </h2>
+                    <ul class="court-partners">
+                        <li class="partners-icon">
+                            <img src="./images/asters.png" alt="asters" />
+                        </li>
+                        <li class="partners-icon">
+                            <img src="./images/trident.png" alt="trident" />
+                        </li>
+                        <li class="partners-icon">
+                            <img src="./images/min_just.png" alt="min_just" />
+                        </li>
+                        <li class="partners-icon">
+                            <img src="./images/diia.png" alt="diia" />
+                        </li>
+                        <li class="partners-icon">
+                            <img src="./images/ilf.png" alt="ilf" />
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="court-control container-fluid" id="court-control">
+                <a class="link" href="#header"
+                    ><img
+                        class="icon-top"
+                        src="./images/btn_top.png"
+                        alt="btn_top"
+                /></a>
+                <div class="court-information">
+                    <div class="img-iphone">
+                        <img
+                            class="iphone"
+                            src="./images/iphone.png"
+                            alt="iphone"
+                        />
+                    </div>
+                    <div class="court-properties" id="court-properties">
+                        <h2 class="court-title title" id="court-title">
+                            Суд Контроль
+                        </h2>
+                        <p class="court-par">
+                            Мобільний додаток оптимізує роботу юристів,
+                            адвокатів,<br />
+                            економить ресурси юридичних фірм та адвокатських
+                            об'єднань.
+                        </p>
+                        <a
+                            href="https://app.courtcontrol.com.ua/auth/login"
+                            rel="external"
+                            class="btn_enter__court link"
+                            >Вхід до системи</a
+                        >
+                        <ul>
+                            <li class="court-link">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.ethersofts.courtcontrol"
+                                    rel="external"
+                                    class="contact link"
+                                >
+                                    <img
+                                        src="./images/google_play.png"
+                                        alt="google_play"
+                                    />
+                                </a>
+                            </li>
+                            <li class="court-link">
+                                <a
+                                    href="https://apps.apple.com/us/app/%D1%81%D1%83%D0%B4-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/id1536129749"
+                                    rel="external"
+                                    class="contact link"
+                                >
+                                    <img
+                                        src="./images/app_store.png"
+                                        alt="app_store"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer container-fluid">
+            <div>
+                <ul class="social-icon" id="social-icon">
+                    <li class="footer-icon">
+                        <a
+                            class="footer-icon"
+                            href="https://www.facebook.com/%D0%A1%D1%83%D0%B4-%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-103878024808127"
+                            rel="external"
+                        >
+                            <svg width="25" height="25px">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-facebook"
+                                ></use></svg
+                        ></a>
+                    </li>
+                    <li class="footer-icon">
+                        <a
+                            class="footer-icon"
+                            href="https://www.youtube.com/channel/UC_HVRBG_04lOFD2sbtSRXOw"
+                            rel="external"
+                        >
+                            <svg width="34px" height="25px">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-youtube"
+                                ></use></svg
+                        ></a>
+                    </li>
+                    <li class="footer-icon">
+                        <a
+                            class="footer-icon"
+                            href="http://t.me/+380631541241"
+                            rel="external"
+                        >
+                            <svg width="25px" height="25px">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-telegram"
+                                ></use></svg
+                        ></a>
+                    </li>
+                    <li class="footer-icon">
+                        <a
+                            class="footer-icon"
+                            href="mailto:ethersofts@gmail.com"
+                            rel="external"
+                        >
+                            <svg width="36px" height="25px">
+                                <use
+                                    href="./images/icons/sprite.svg#icon-message"
+                                ></use></svg
+                        ></a>
+                    </li>
+                </ul>
+                <div class="footer-logo-inform">
+                    <img
+                        class="logo-footer"
+                        src="./images/logo.png"
+                        alt="logo"
+                    />
+                    <div class="logo-description">
+                        <a href="./" class="logo-link-footer link"
+                            >Суд Контроль</a
+                        >
+                        <p class="footer-logo-paragraph">
+                            Система для автоматизації процесу<br />
+                            моніторингу стану судових справ
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <form class="block-send">
-            <h3 class="title-send">Приєднуйтесь</h3>
-            <p class="paragraph-send">Заповнюєте у полі адресу Вашої електронної пошти і ми<br /> зв’язуємося з Вами.
+            <form class="block-send">
+                <h3 class="title-send">Приєднуйтесь</h3>
+                <p class="paragraph-send">
+                    Заповнюєте у полі адресу Вашої електронної пошти і ми<br />
+                    зв’язуємося з Вами.
+                </p>
+                <div class="footer-mail">
+                    <input
+                        type="email"
+                        name="mail"
+                        class="form-email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        placeholder="youremail@domain.com"
+                        required
+                    />
+                    <button class="btn-send">Надіслати</button>
+                </div>
+            </form>
+            <p class="footer-par">
+                &copy; 2021 EtherSofts. Court Control. All rights reserved
             </p>
-            <div class="footer-mail">
-                <input type="email" name="mail" class="form-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                    placeholder="youremail@domain.com" required />
-                <button class="btn-send">Надіслати</button>
-            </div>
-        </form>
-        <p class="footer-par">© 2021 EtherSofts. Court Control. All rights reserved</p>
-    </footer>
-    <a href="#" class="back-to-top"></a>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="./js/target.js"></script>
-    <script src="./js/idScrooll.js"></script>
-    <script src="./js/backToTop.js"></script>
-    <script src="./js/mobile-menu.js"></script>
-</body>
+        </footer>
+        <a href="#" class="back-to-top"></a>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="./js/target.js"></script>
+        <script src="./js/idScrooll.js"></script>
+        <script src="./js/backToTop.js"></script>
+        <script src="./js/mobile-menu.js"></script>
+    </body>
 </html>
